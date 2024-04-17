@@ -27,9 +27,6 @@ Elementtien sisältö perustuu Kansallisen turvallisuusviranomaisen julkaisemaan
     <element identifier="id-955" xsi:type="BusinessProcess">
       <name xml:lang="en">Muutoksenhallintaprosessi</name>
     </element>
-    <element identifier="id-788fb749f98d41959709549a1dfe5f3b" xsi:type="BusinessService">
-      <name xml:lang="en">IDS palvelu</name>
-    </element>
     <element identifier="id-903" xsi:type="BusinessService">
       <name xml:lang="en">Valvontapalvelu</name>
     </element>
@@ -63,17 +60,11 @@ Elementtien sisältö perustuu Kansallisen turvallisuusviranomaisen julkaisemaan
     <element identifier="id-ee881fb280ce4c02beaac943dc88fb66" xsi:type="BusinessService">
       <name xml:lang="en">Konfiguraationhallintapalvelu</name>
     </element>
-    <element identifier="id-1493069b8114476fa783f9333628ea55" xsi:type="BusinessService">
-      <name xml:lang="en">IPS palvelu</name>
-    </element>
     <element identifier="id-959" xsi:type="BusinessProcess">
       <name xml:lang="en">Elinkaarenhallinta</name>
     </element>
     <element identifier="id-841" xsi:type="ApplicationComponent">
       <name xml:lang="en">Datadiodi</name>
-    </element>
-    <element identifier="id-839" xsi:type="ApplicationService">
-      <name xml:lang="en">Hallintapalvelu</name>
     </element>
     <element identifier="id-838" xsi:type="ApplicationService">
       <name xml:lang="en">Datadiodi  sovelluspalvelu</name>
@@ -87,17 +78,11 @@ Elementtien sisältö perustuu Kansallisen turvallisuusviranomaisen julkaisemaan
     <element identifier="id-871" xsi:type="TechnologyService">
       <name xml:lang="en">Palomuuripalvelu</name>
     </element>
-    <element identifier="id-867" xsi:type="TechnologyService">
-      <name xml:lang="en">IDS palvelu</name>
-    </element>
     <element identifier="id-873" xsi:type="TechnologyService">
       <name xml:lang="en">SSL salauspalvelu</name>
     </element>
     <element identifier="id-872" xsi:type="TechnologyService">
       <name xml:lang="en">DDOS suojauspalvelu</name>
-    </element>
-    <element identifier="id-866" xsi:type="TechnologyService">
-      <name xml:lang="en">Salauspalvelu</name>
     </element>
     <element identifier="id-859" xsi:type="Node">
       <name xml:lang="en">Hallintanoodi</name>
@@ -110,9 +95,6 @@ Elementtien sisältö perustuu Kansallisen turvallisuusviranomaisen julkaisemaan
     </element>
     <element identifier="id-885" xsi:type="CommunicationNetwork">
       <name xml:lang="en">Tuorvallisuusluokka IV verkon segmentit</name>
-    </element>
-    <element identifier="id-853" xsi:type="Artifact">
-      <name xml:lang="en">Turvallisuusluokka III default deny sääntö (toiminnalle välttämätön liikennöinti sallitaan)</name>
     </element>
     <element identifier="id-852" xsi:type="Artifact">
       <name xml:lang="en">Konfiguraatio</name>
@@ -149,9 +131,6 @@ Elementtien sisältö perustuu Kansallisen turvallisuusviranomaisen julkaisemaan
     </element>
     <element identifier="id-881" xsi:type="CommunicationNetwork">
       <name xml:lang="en">Tuorvallisuusluokka III hallintaverkko</name>
-    </element>
-    <element identifier="id-868" xsi:type="TechnologyService">
-      <name xml:lang="en">IPS palvelu</name>
     </element>
     <element identifier="id-869" xsi:type="TechnologyService">
       <name xml:lang="en">Palomuuripalvelu turvallisuusluokka III</name>
@@ -617,7 +596,7 @@ Muita lisätietoja: CIS Critical Security Controls (v7.1) / 1; CIS Critical Secu
       <documentation xml:lang="en">Organisaatio on arvioinut olennaiset turvallisuusluokiteltuihin tietoihin kohdistuvat riskit ja mitoittanut tietoturvallisuustoimenpiteet riskiarvioinnin mukaisesti.</documentation>
     </element>
     <element identifier="id-034816c8796d4a61b75658341cbe5a60" xsi:type="Requirement">
-      <name xml:lang="en">Tiedon tuhoamisen saa suorittaa vain henkilö, jonka viranomainen on tähän tehtävään määrännyt. Valmisteluvaiheen versiot voi tuhota ne laatinut henkilö.</name>
+      <name xml:lang="en">Tiedon tuhoamisen saa suorittaa vain henkilö, jonka viranomainen on tähän tehtävään määrännyt. Valmisteluvaiheen versiot voi tuhota ne laatinut henkilö. (I-21)</name>
     </element>
     <element identifier="id-f86cf78c88074bd2a64b188697a84252" xsi:type="Goal">
       <name xml:lang="en">Katakri 2020 - Fyysinen turvallisuus - Turvallisuusalueiden vaatimukset</name>
@@ -1187,7 +1166,7 @@ c) Turvallisuusluokitellut tiedot on suojattu teknisiltä ja fyysisiltä vahingo
       <name xml:lang="en">Päätelaitteessa olevat tiedot tulee olla suojattu kyseiselle turvallisuusluokalle riittävän turvallisella, toimivaltaisen viranomaisen hyväksymällä salausratkaisulla, ja päätelaitteen ko. turvallisuusluokalle riittävästä eheydestä tulee huolehtia.</name>
     </element>
     <element identifier="id-867e556dc4e4415e96f46c601a25473a" xsi:type="Requirement">
-      <name xml:lang="en">Tiedon tuhoamisen saa suorittaa vain henkilö, jonka viranomainen on tähän tehtävään määrännyt. Valmisteluvaiheen versiot voi tuhota ne laatinut henkilö.</name>
+      <name xml:lang="en">Tiedon tuhoamisen saa suorittaa vain henkilö, jonka viranomainen on tähän tehtävään määrännyt. Valmisteluvaiheen versiot voi tuhota ne laatinut henkilö. (F-08.4)</name>
     </element>
     <element identifier="id-640ae2eeb9884abfa6b736e61684bf26" xsi:type="Goal">
       <name xml:lang="en">I-21 - Turvallisuusluokka II: Kohtien 1-2 lisäksi</name>
@@ -1619,7 +1598,7 @@ Arvioitaessa viranomaisen turvallisuusluokitellun tiedon käsittely-ympäristö�
       <name xml:lang="en">Turvallisuusluokan IV tietoja sisältävät tietovarannot ja näiden tietojen käsittelyyn käytetyt tietojärjestelmät on sijoitettava toimivaltaisen viranomaisen hyväksymälle turvallisuusalueelle (vrt. F-04).</name>
     </element>
     <element identifier="id-0e220c810211456999730171f1e16e50" xsi:type="Requirement">
-      <name xml:lang="en">Kansainvälisten turvallisuusluokan II (SECRET) tietojen tuhoaminen on suoritettava todistajan läsnä ollessa. Todistajalla on oltava vähintään tuhottavan tiedon turvallisuusluokkaa vastaava turvallisuusselvitys.</name>
+      <name xml:lang="en">Kansainvälisten turvallisuusluokan II (SECRET) tietojen tuhoaminen on suoritettava todistajan läsnä ollessa. Todistajalla on oltava vähintään tuhottavan tiedon turvallisuusluokkaa vastaava turvallisuusselvitys. (I-21)</name>
     </element>
     <element identifier="id-783bd86e0e984ee99b1ee37011011c5a" xsi:type="Requirement">
       <name xml:lang="en">Tietojen käsittely on mahdollista toimivaltaisen viranomaisen hyväksymillä turvallisuusalueilla (vrt. F-04) ja toimivaltaisen viranomaisen hyväksymillä menettelyillä turvallisuusalueiden ulkopuolella (vrt. I-18).</name>
@@ -1685,7 +1664,7 @@ SFS 7020 (+SFS 5970)
       <name xml:lang="en">Turvatoimia toteutetaan turvallisuusluokiteltuihin tietoihin liittyvässä tietojenkäsittely-ympäristössä toimivaltaisen viranomaisen ko. turvallisuusluokalle hyväksymillä menetelmillä niin, että tahattomat sähkömagneettiset vuodot eivät vaaranna tietoja (TEMPEST-turvatoimet).</name>
     </element>
     <element identifier="id-c611b5f90e5140d1a00429923cc9b59e" xsi:type="Requirement">
-      <name xml:lang="en">Jos turvallisuusluokiteltuihin tietoihin kohdistuu salaa katselun riski, vahingossa tapahtuva salaa katselu mukaan lukien, on riskin torjumiseksi tehtävä asianmukaiset toimenpiteet.</name>
+      <name xml:lang="en">Jos turvallisuusluokiteltuihin tietoihin kohdistuu salaa katselun riski, vahingossa tapahtuva salaa katselu mukaan lukien, on riskin torjumiseksi tehtävä asianmukaiset toimenpiteet. (F-6)</name>
     </element>
     <element identifier="id-794e35738859470d9083e17b67442bb9" xsi:type="Requirement">
       <name xml:lang="en">Organisaation on tarkastettava kaikki elektroniset laitteet, ennen kuin niitä käytetään sellaisella hallinnollisella alueella, jossa käsitellään turvallisuusluokan II tietoja, mikäli tietoihin kohdistuva uhka arvioidaan korkeaksi.</name>
@@ -2065,7 +2044,7 @@ Turvallisuusluokan II tiedoille vaatimus voidaan täyttää siten, että kohtien
       <name xml:lang="en">I-21 - Turvallisuusluokka III: Kohdan 1 lisäksi</name>
     </element>
     <element identifier="id-785f06bfd0a74bdfa3311ff4c530b1f8" xsi:type="Requirement">
-      <name xml:lang="en">Kansainvälisten turvallisuusluokan II (SECRET) tietojen tuhoaminen on suoritettava todistajan läsnä ollessa. Todistajalla on oltava vähintään tuhottavan tiedon turvallisuusluokkaa vastaava turvallisuusselvitys.</name>
+      <name xml:lang="en">Kansainvälisten turvallisuusluokan II (SECRET) tietojen tuhoaminen on suoritettava todistajan läsnä ollessa. Todistajalla on oltava vähintään tuhottavan tiedon turvallisuusluokkaa vastaava turvallisuusselvitys. (F-08.4)</name>
     </element>
     <element identifier="id-01fa35b2585b4dffa67cc0adb7366046" xsi:type="Goal">
       <name xml:lang="en">T-13 - Tiedonsaantitarve ja käsittely-oikeudet</name>
@@ -2265,7 +2244,7 @@ Muita lisätietoja: CIS Critical Security Controls (v7.1) / 4; CIS Critical Secu
       <documentation xml:lang="en">Alueella voi säilyttää kansallista turvallisuusluokan III tietoa kyseisen turvallisuusluokan vaatimukset täyttävässä päätelaitteessa, mikäli päätelaitetta säilytetään: a) valvotussa tilassa tai b) soveltuvassa lukitussa toimistokalusteessa turvapussissa tai vastaavalla tavalla. Mahdollinen tilan valvonta tulee toteuttaa F-05.5-vaatimuksen mukaisesti. Poiketen kansallisen turvallisuusluokitellun tiedon säilyttämissäännöistä, kansainvälisen turvallisuusluokan III (CONFIDENTIAL) tietoa ei voi säilyttää hallinnollisella alueella.</documentation>
     </element>
     <element identifier="id-e19227e2d96246818cfb598b1daf9da1" xsi:type="Requirement">
-      <name xml:lang="en">Jos tiedon on laatinut toinen viranomainen, tarpeettomaksi käyneen tiedon tuhoamisesta on ilmoitettava tiedon laatineelle viranomaiselle, jollei sitä palauteta tiedon laatineelle viranomaiselle.</name>
+      <name xml:lang="en">Jos tiedon on laatinut toinen viranomainen, tarpeettomaksi käyneen tiedon tuhoamisesta on ilmoitettava tiedon laatineelle viranomaiselle, jollei sitä palauteta tiedon laatineelle viranomaiselle. (I-21)</name>
     </element>
     <element identifier="id-a62d9dfd7df94efb802b7b1c202be47f" xsi:type="Requirement">
       <name xml:lang="en">Kansainvälisiä turvallisuusluokiteltuja tietoja saa kopioida ja kääntää, mikäli tiedon luovuttaja ei ole sitä kieltänyt.</name>
@@ -2504,7 +2483,7 @@ Muita lisätietoja: SFS-EN ISO/IEC 27002:2017 17.1.1, 17.1.2, 17.2.1, 12.3.1, 16
       <name xml:lang="en">Alue, jolla ei ole henkilöstöä palveluksessa vuorokauden ympäri, on tarvittaessa tarkastettava normaalin työajan päätteeksi ja satunnaisiin aikoihin työajan ulkopuolella, paitsi jos alueelle on asennettu tunkeutumisen ilmaisujärjestelmä (murtohälytysjärjestelmä).</name>
     </element>
     <element identifier="id-61630283b3e04a218c1b2609c1fcd59e" xsi:type="Requirement">
-      <name xml:lang="en">Jos turvallisuusluokiteltuihin tietoihin kohdistuu salaa katselun riski, vahingossa tapahtuva salaa katselu mukaan lukien, on riskin torjumiseksi tehtävä asianmukaiset toimenpiteet.</name>
+      <name xml:lang="en">Jos turvallisuusluokiteltuihin tietoihin kohdistuu salaa katselun riski, vahingossa tapahtuva salaa katselu mukaan lukien, on riskin torjumiseksi tehtävä asianmukaiset toimenpiteet. (F-5)</name>
     </element>
     <element identifier="id-5f42f30d3312445e9ce89f5ce1091d17" xsi:type="Requirement">
       <name xml:lang="en">Kansainvälisten turvallisuusluokan III (CONFIDENTIAL) tietojen osalta, kirjaajan on allekirjoitettava tuhoamistodistus, joka tallennetaan kirjaamoon/rekisteröintipisteeseen. Kirjaustiedot on päivitettävä vastaavasti. Kirjaamon/rekisteröintipisteen on säilytettävä tuhoamistodistukset vähintään viiden vuoden ajan. (vrt. F-08.3).</name>
@@ -2628,7 +2607,7 @@ Kameravalvontajärjestelmät
 SFS-EN 62676Suunnittelu Finanssialan K-menetelmän mukaisesti Kameravalvontajärjestelmän tallenteiden säilymisaika määritellään riskiperusteisesti organisaation poikkeamien havainnointikyvyn mukaisesti huomioiden ennakoivat ja reagoivat menettelyt.Suositeltava vähimmäisaika tallenteille on 1 kk. Lisäksi kameravalvontajärjestelmä voidaan liittää tunkeutumisen ilmaisujärjestelmään.</documentation>
     </element>
     <element identifier="id-91e3f27634ce4941bb2a452f8d07494b" xsi:type="Requirement">
-      <name xml:lang="en">Jos tiedon on laatinut toinen viranomainen, tarpeettomaksi käyneen tiedon tuhoamisesta on ilmoitettava tiedon laatineelle viranomaiselle, jollei sitä palauteta tiedon laatineelle viranomaiselle.</name>
+      <name xml:lang="en">Jos tiedon on laatinut toinen viranomainen, tarpeettomaksi käyneen tiedon tuhoamisesta on ilmoitettava tiedon laatineelle viranomaiselle, jollei sitä palauteta tiedon laatineelle viranomaiselle. (F-98.4)</name>
     </element>
     <element identifier="id-0e3b20884a5a40a88537c50d7031dfc2" xsi:type="Requirement">
       <name xml:lang="en">Kun turvallisuusluokiteltua tietoa siirretään hyväksyttyjen fyysisesti suojattujen turvallisuusalueiden ulkopuolella, tieto/tietoliikenne salataan toimivaltaisen viranomaisen ko. turvallisuusluokalle hyväksymällä menetelmällä. Lisäksi tietojensiirto on järjestettävä siten, että vastaanottaja varmistetaan tai tunnistetaan riittävän tietoturvallisella tavalla ennen kuin vastaanottaja pääsee käsittelemään siirrettyjä turvallisuusluokiteltuja tietoja.</name>
@@ -2954,32 +2933,6 @@ Muita lisätietoja: Laki turvallisuusselvityksistä 726/2014; Laki kansainvälis
     </element>
   </elements>
   <relationships>
-    <relationship identifier="id-db917cf1167d45e68156626e1f94eabc" source="id-981037fcd46f4581804284c5a6b059c4" target="id-d3d5b238ffad4cc497947b4b9d50e209" xsi:type="Association" />
-    <relationship identifier="id-521c84f8dc5141a9af48bb9aaa1a65ae" source="id-4d94cb4c7c2a4c02acca73ebfc7738a6" target="id-d3d5b238ffad4cc497947b4b9d50e209" xsi:type="Association" />
-    <relationship identifier="id-59df5c9290ac47a2ad9483f357af8580" source="id-f66368ccfb094ef1a41f4e1ce890e778" target="id-c7c74d42af60412288117aa1f659bf1a" xsi:type="Influence" modifier="+" />
-    <relationship identifier="id-6377e148c24f41208257782576ece31e" source="id-981037fcd46f4581804284c5a6b059c4" target="id-4d94cb4c7c2a4c02acca73ebfc7738a6" xsi:type="Realization" />
-    <relationship identifier="id-d95cd914b110420ba713673862cf6e19" source="id-ebd120bc44854c13b66244a47232e2a3" target="id-26eeff98db154ece8fd2d4a6cbe6fccd" xsi:type="Realization" />
-    <relationship identifier="id-2eaba521c938422285eb3d69814daa10" source="id-4588ac653b3046bfb0e15b3838dd5575" target="id-490a0e6fbb894aaa8099d0fbe7a34623" xsi:type="Association" />
-    <relationship identifier="id-61e76f553b3e49b8b0d379f39595f32e" source="id-ebd120bc44854c13b66244a47232e2a3" target="id-4588ac653b3046bfb0e15b3838dd5575" xsi:type="Influence" modifier="-" />
-    <relationship identifier="id-4da05d73b6074602b76718580b86f5d6" source="id-219574210c684dfd913599caf1e41aea" target="id-d3d5b238ffad4cc497947b4b9d50e209" xsi:type="Association" />
-    <relationship identifier="id-430b20800e634522b3c6b3fe9d96cee2" source="id-ebd120bc44854c13b66244a47232e2a3" target="id-d3d5b238ffad4cc497947b4b9d50e209" xsi:type="Association" />
-    <relationship identifier="id-ba1b28c68bcf45eda61b81c1c32af410" source="id-3206bd3d996b4fcda2022c22a62b82d0" target="id-d84ac0eae5034279aa988354228f9666" xsi:type="Composition" />
-    <relationship identifier="id-3bc0cf7d0799448db55f4bb115867d6a" source="id-490a0e6fbb894aaa8099d0fbe7a34623" target="id-d3d5b238ffad4cc497947b4b9d50e209" xsi:type="Association" />
-    <relationship identifier="id-ef115233d5004867823b318c7bd36b4b" source="id-bb949d919d7a4546b21cef33c379d9e0" target="id-4d94cb4c7c2a4c02acca73ebfc7738a6" xsi:type="Realization" />
-    <relationship identifier="id-56eec7bea6f94f2790305da35692985b" source="id-26eeff98db154ece8fd2d4a6cbe6fccd" target="id-bb949d919d7a4546b21cef33c379d9e0" xsi:type="Realization" />
-    <relationship identifier="id-ee50568323f84df2b6b3266ce187ff48" source="id-873" target="id-a8d3994a33044d3f949a597df4160b0c" xsi:type="Realization" />
-    <relationship identifier="id-a3e9e70c72d6437c9bd33ccfa80d6519" source="id-f66368ccfb094ef1a41f4e1ce890e778" target="id-d3d5b238ffad4cc497947b4b9d50e209" xsi:type="Association" />
-    <relationship identifier="id-71dbd8652a9749aba4877248a7f9bb47" source="id-f66368ccfb094ef1a41f4e1ce890e778" target="id-4588ac653b3046bfb0e15b3838dd5575" xsi:type="Association" />
-    <relationship identifier="id-439ed76364134d03a2bf5b2335d9f0b6" source="id-c7c74d42af60412288117aa1f659bf1a" target="id-d3d5b238ffad4cc497947b4b9d50e209" xsi:type="Association" />
-    <relationship identifier="id-229c8a4901c34a79b60fb0c19e7391e6" source="id-61eb3abeb82244fd84fbbd6148a7544f" target="id-d84ac0eae5034279aa988354228f9666" xsi:type="Realization" />
-    <relationship identifier="id-19e5f3a8e68d45ef935978a3db7652ae" source="id-490a0e6fbb894aaa8099d0fbe7a34623" target="id-ebd120bc44854c13b66244a47232e2a3" xsi:type="Association" />
-    <relationship identifier="id-3d23b9a415e245ae8663e7bccb87e1db" source="id-4d94cb4c7c2a4c02acca73ebfc7738a6" target="id-c7c74d42af60412288117aa1f659bf1a" xsi:type="Association" />
-    <relationship identifier="id-0434df8b33254ac796f47a1fa97b9a1b" source="id-4b2f6cd5b4584c6e8d4a1b17eace3ab3" target="id-3206bd3d996b4fcda2022c22a62b82d0" xsi:type="Composition" />
-    <relationship identifier="id-02697cc481184212a16ef5c571e48dbd" source="id-26eeff98db154ece8fd2d4a6cbe6fccd" target="id-d3d5b238ffad4cc497947b4b9d50e209" xsi:type="Association" />
-    <relationship identifier="id-af957a7072064f459eec1fc808f7a895" source="id-219574210c684dfd913599caf1e41aea" target="id-4588ac653b3046bfb0e15b3838dd5575" xsi:type="Association" />
-    <relationship identifier="id-f9e259a47fe347d99813e08fba66ca17" source="id-219574210c684dfd913599caf1e41aea" target="id-f66368ccfb094ef1a41f4e1ce890e778" xsi:type="Triggering" />
-    <relationship identifier="id-14f09760d7ca435889b14229a10c3eed" source="id-26eeff98db154ece8fd2d4a6cbe6fccd" target="id-981037fcd46f4581804284c5a6b059c4" xsi:type="Specialization" />
-    <relationship identifier="id-420e38c0cdb0490fab7c0fea0afbac0a" source="id-d4885f2be4cd464b9465bd82e02a8fc5" target="id-219574210c684dfd913599caf1e41aea" xsi:type="Assignment" />
     <relationship identifier="id-927" source="id-873" target="id-875" xsi:type="Serving" />
     <relationship identifier="id-57a622b8fb7e46e4b01fe4114cc562e1" source="id-d05651cdb5a74dfca2f2622b8247b960" target="id-d0b69f6ba5964965b594fb62cf3696ba" xsi:type="Composition" />
     <relationship identifier="id-3cd48e5fcf3d4b898ed1aa91f7dc86cd" source="id-cd987590cf2a43a3845f5f17ce8251df" target="id-961236e9f6f6488480e71152210d81c5" xsi:type="Realization" />
@@ -2991,24 +2944,17 @@ Muita lisätietoja: Laki turvallisuusselvityksistä 726/2014; Laki kansainvälis
     <relationship identifier="id-efe24af45891430a9d4faaed24271a91" source="id-226cdd7c2b6145c2a05f5dde75881f47" target="id-bd3f62c10f89431ea354bac87e73e156" xsi:type="Composition" />
     <relationship identifier="id-9cadc7bac2ca415eb7a4eda9888b1c95" source="id-bd3f62c10f89431ea354bac87e73e156" target="id-f86cf78c88074bd2a64b188697a84252" xsi:type="Composition" />
     <relationship identifier="id-b8bb3f3c51d44441886df6976861ef28" source="id-551e4ad5ee4d4dbea16922e32d026cd0" target="id-314c7745b65c46ff91c3097efeeb4847" xsi:type="Composition" />
-    <relationship identifier="id-c7e45dd43d0044349f73e6fd2e9fdb02" source="id-1493069b8114476fa783f9333628ea55" target="id-af3dcf08541a4f2e842320ab76dff7e3" xsi:type="Realization" />
     <relationship identifier="id-925" source="id-875" target="id-926" xsi:type="Realization" />
     <relationship identifier="id-919" source="id-879" target="id-875" xsi:type="Realization" />
     <relationship identifier="id-f8fcb39a0afa4e5392b3f7fda3a49abd" source="id-f86cf78c88074bd2a64b188697a84252" target="id-e7b4f7f452584002a49168e439ef92bf" xsi:type="Composition" />
     <relationship identifier="id-1d18455e0d1e43fbac28e5997644a973" source="id-e19227e2d96246818cfb598b1daf9da1" target="id-640ae2eeb9884abfa6b736e61684bf26" xsi:type="Realization" />
     <relationship identifier="id-0470780145cb4fc998c57d7625d0273f" source="id-003d6c4d8ef24580967ed7e4490e1130" target="id-22cdb8e822ba4146bc8aaa8fc60f81ac" xsi:type="Realization" />
     <relationship identifier="id-34f868eea334488194393f90ca60e34e" source="id-893" target="id-08061a8d26d84b9c84c7e0b1259bd0b6" xsi:type="Realization" />
-    <relationship identifier="id-907" source="id-866" target="id-873" xsi:type="Aggregation" />
-    <relationship identifier="id-2e1a14f7cc84478a9763b40cad7909c8" source="id-d05651cdb5a74dfca2f2622b8247b960" target="id-26b21c40d8504ebea7837f593cacf9d5" xsi:type="Composition" />
     <relationship identifier="id-4f2127644c7245029d19cb8fa7c7ed31" source="id-0e220c810211456999730171f1e16e50" target="id-640ae2eeb9884abfa6b736e61684bf26" xsi:type="Realization" />
     <relationship identifier="id-d6235150d19c4cbd98b4762763c757df" source="id-b57b6d77b1a74b9aa73bee75db7ab605" target="id-e9d8910a21b54340a9c5c288def4298d" xsi:type="Realization" />
     <relationship identifier="id-892" source="id-871" target="id-893" xsi:type="Realization" />
     <relationship identifier="id-83ea98884c6d4b28abb090614e8981ed" source="id-d0b69f6ba5964965b594fb62cf3696ba" target="id-56b63a599f554e3cbed903e26b09d8c6" xsi:type="Composition" />
-    <relationship identifier="id-24b83fefc29c4e0aa93495158b3b1882" source="id-d05651cdb5a74dfca2f2622b8247b960" target="id-9c12a623c72a449b927718c81a1d70e3" xsi:type="Composition" />
-    <relationship identifier="id-890" source="id-870" target="id-4661dbc4bf794041acbdc131bdb1dc71" xsi:type="Realization" />
     <relationship identifier="id-8201f16333e24b6c9257dfef6c925a16" source="id-521b1f7318d74232af0807c3eb66601b" target="id-f6b45cee06604d7b954d2295779306c5" xsi:type="Realization" />
-    <relationship identifier="id-7d5b181b69754fe58be97d5d45a259d5" source="id-bd3f62c10f89431ea354bac87e73e156" target="id-490a262b13c64da5983e1d339f9d9dc3" xsi:type="Composition" />
-    <relationship identifier="id-847" source="id-838" target="id-4661dbc4bf794041acbdc131bdb1dc71" xsi:type="Realization" />
     <relationship identifier="id-0452f8f347f3425a86452bab004b8f56" source="id-24eedbe57d4d4a75a2be9b5c3fb4939b" target="id-73fa865ca39d41e5a0e9705df1a8e79b" xsi:type="Composition" />
     <relationship identifier="id-56da5719863f45cd9275d3be8d2bb54b" source="id-65e41f7b52874f3b97b5dfc34b5b67f0" target="id-073fcc38eea447e581aca7c5f0ed48c7" xsi:type="Realization" />
     <relationship identifier="id-d0a4056572c04593bb9a94c74119a320" source="id-75a6d9e37fb44902b7c0c2cc057df96e" target="id-f2dc1f02e6974c3c9cb98254ae195f73" xsi:type="Realization" />
@@ -3020,8 +2966,6 @@ Muita lisätietoja: Laki turvallisuusselvityksistä 726/2014; Laki kansainvälis
     <relationship identifier="id-1e4682cd06284b29ab9ef6e56c5b099c" source="id-525e8a54a5aa444cbf4454bf5857f78c" target="id-9da61d33440d4a18aefe973a1b55851b" xsi:type="Realization" />
     <relationship identifier="id-e3faca7c317449db9c06976e64de97cf" source="id-ce766d5ce63b41c98a0f580f744eeeca" target="id-9da61d33440d4a18aefe973a1b55851b" xsi:type="Realization" />
     <relationship identifier="id-16e3804700bc43dd93bb695ba31158f2" source="id-872" target="id-4ee99c16eb5f4562b29b84acac28ceed" xsi:type="Realization" />
-    <relationship identifier="id-5cfaf887fed246418899c3294ab210b3" source="id-868" target="id-1493069b8114476fa783f9333628ea55" xsi:type="Realization" />
-    <relationship identifier="id-edd36cfd32e04dc4b7b6ffbaecd4804e" source="id-866" target="id-49a70413a3874b689e2a918ed02bb634" xsi:type="Realization" />
     <relationship identifier="id-1b21552ad05647d68eaa25df236ce826" source="id-5fb10df23d99438d9c57074d8a4df9b3" target="id-a9bbfd1c7b1e46738dce59c892a45e26" xsi:type="Realization" />
     <relationship identifier="id-ecb14708ceba470fbe8ddb964a27d619" source="id-24eedbe57d4d4a75a2be9b5c3fb4939b" target="id-59b1853967074c7c94b4bdabc83c4a81" xsi:type="Composition" />
     <relationship identifier="id-30e7bed986b64e248f9331bd0c2cbd8a" source="id-956188128d2f4da6968778f10641df44" target="id-56e9ceb271d5479badea749e3daff549" xsi:type="Realization" />
@@ -3031,16 +2975,12 @@ Muita lisätietoja: Laki turvallisuusselvityksistä 726/2014; Laki kansainvälis
     <relationship identifier="id-8d167c3c5c6b44f29b5edf26278a2660" source="id-551e4ad5ee4d4dbea16922e32d026cd0" target="id-0a2c0f3881cf48f9af55315813ad9e76" xsi:type="Composition" />
     <relationship identifier="id-d78af4a2a72f41c390bfa37071bb4bab" source="id-a34428f009114084a579b2178c2d29ac" target="id-56b63a599f554e3cbed903e26b09d8c6" xsi:type="Realization" />
     <relationship identifier="id-cbab6655ca2d417a96f125aa29f84838" source="id-903" target="id-4ee99c16eb5f4562b29b84acac28ceed" xsi:type="Serving" />
-    <relationship identifier="id-e11329e33f7642e4a92b854cba1a961a" source="id-866" target="id-5e03ea17b9844d22a6a0a52b7614d0b5" xsi:type="Realization" />
     <relationship identifier="id-928" source="id-871" target="id-869" xsi:type="Aggregation" />
     <relationship identifier="id-90eabbd0f0344504a458d274d0bb1af1" source="id-dd6db40c1ea641f79e4da6e241acaca3" target="id-a294f39a8ff143818e3226d42801e64a" xsi:type="Realization" />
     <relationship identifier="id-c0f795a00d404c7c9bc4f3f89aac44f4" source="id-824b5c8f0f2242debcc7be2b18ced67a" target="id-88b2b10fa72341528cb9539e511abd34" xsi:type="Realization" />
-    <relationship identifier="id-7c1ba02b8b4b450f9fe062e9ac677a13" source="id-900" target="id-af3dcf08541a4f2e842320ab76dff7e3" xsi:type="Realization" />
     <relationship identifier="id-92da8b169b354fa29efe39ad01bc5bd5" source="id-034816c8796d4a61b75658341cbe5a60" target="id-640ae2eeb9884abfa6b736e61684bf26" xsi:type="Realization" />
     <relationship identifier="id-22cb813736274eb19158341faaf24903" source="id-882" target="id-3f62417b741646a488166cf2974f72a1" xsi:type="Realization" />
-    <relationship identifier="id-2ff0cf7f1a7a43328775d4667ec1c764" source="id-d05651cdb5a74dfca2f2622b8247b960" target="id-7008456cd515408c988181651ed65fd6" xsi:type="Composition" />
     <relationship identifier="id-b2c68942429042878028a8a0cfd3595c" source="id-551e4ad5ee4d4dbea16922e32d026cd0" target="id-6030b59e776648ff8c8ddce4c228d03c" xsi:type="Composition" />
-    <relationship identifier="id-1815b35ea926480c85bd66d4f5b1740e" source="id-d05651cdb5a74dfca2f2622b8247b960" target="id-01fa35b2585b4dffa67cc0adb7366046" xsi:type="Composition" />
     <relationship identifier="id-b5b9ab3a1b794d7fa3be298bfc755c24" source="id-c7a9722664ad467a8f6f5c608e157bd2" target="id-0d222eb12b9f42939f810cbc4f123679" xsi:type="Composition" />
     <relationship identifier="id-fa0835c5904d494d8d870d29494c400b" source="id-f6b45cee06604d7b954d2295779306c5" target="id-c2d624d67b954ef282f908720c4e7b6c" xsi:type="Aggregation" />
     <relationship identifier="id-605c33e3a68c493daa16e2900f71721a" source="id-ad18f4c8635744b1b2ba295a7b0656c7" target="id-7a285c7e95b344bfa70f3c9480849df8" xsi:type="Composition" />
@@ -3051,8 +2991,6 @@ Muita lisätietoja: Laki turvallisuusselvityksistä 726/2014; Laki kansainvälis
     <relationship identifier="id-45f6fce99e234830aace3286de70a796" source="id-9ac4e2c92e614868a16f8ba00bf530dd" target="id-a6590235339d461cb4ad172a00d626b4" xsi:type="Realization" />
     <relationship identifier="id-04aad383ca88426d84b7af9841e504d1" source="id-724d1c52fd504dd888a2f08db74e58eb" target="id-adaed162b7e9499b82a2e8986d571fa6" xsi:type="Realization" />
     <relationship identifier="id-c8bd87313cba4f6eb75c1164ca7b8fc8" source="id-45a7d85d87c5483d84fed2816e5ef536" target="id-2695045ea70a4fe682f560eda1caa652" xsi:type="Realization" />
-    <relationship identifier="id-2b25c891b8b5488bbd7686486e3435c1" source="id-d05651cdb5a74dfca2f2622b8247b960" target="id-ab9c0f10ef314b24b7e095736a41a502" xsi:type="Composition" />
-    <relationship identifier="id-894" source="id-886" target="id-4661dbc4bf794041acbdc131bdb1dc71" xsi:type="Realization" />
     <relationship identifier="id-3915d4a172e44567ac2934af45b93201" source="id-0edbfcced36b47c4abbdb78ef833e393" target="id-c546eb5d3dd748bc8c4eef5b8763a760" xsi:type="Realization" />
     <relationship identifier="id-e1499cd91b964c8caa220e5aa6143f27" source="id-db1f25d8876e49ec8ee46e5ae0b77183" target="id-e18b699114d14b33b7a1caa442ca28d7" xsi:type="Realization" />
     <relationship identifier="id-f2fe2e9a682d4f62ae3cf721c9a0f336" source="id-799b0dc2be544bf4badffd01c6337935" target="id-59b1853967074c7c94b4bdabc83c4a81" xsi:type="Realization" />
@@ -3065,9 +3003,7 @@ Muita lisätietoja: Laki turvallisuusselvityksistä 726/2014; Laki kansainvälis
     <relationship identifier="id-c1eac824d7d94f80b35163153828b4a1" source="id-bd3f62c10f89431ea354bac87e73e156" target="id-8157d4e96fd44a22bfcd9c75d5baef64" xsi:type="Composition" />
     <relationship identifier="id-2034997f5b664f6a890c1b42978e8e95" source="id-87c049c9b84d435e8fbad239ecb679ac" target="id-893e346e0b8b4530a1e8f2ff5639b6e5" xsi:type="Composition" />
     <relationship identifier="id-dcc2eedcd753493ab4539c8af54de909" source="id-4d312d2761324c71ba56cc9dedb4b35e" target="id-66842a0c55e84205bda4696b1c62d014" xsi:type="Realization" />
-    <relationship identifier="id-909" source="id-872" target="id-103ee3257e2a4d64bb12eee3ef46a447" xsi:type="Realization" />
     <relationship identifier="id-d4dd5c2b56774eb2bd27b5950abfb87c" source="id-e85dac5aa82746cc9b4f103d85b9cc1b" target="id-f2dc1f02e6974c3c9cb98254ae195f73" xsi:type="Composition" />
-    <relationship identifier="id-908" source="id-868" target="id-103ee3257e2a4d64bb12eee3ef46a447" xsi:type="Realization" />
     <relationship identifier="id-9522f40019154ae4b317fad79fe4e581" source="id-22297599b04f4eb6a9978a99b5fd0dec" target="id-73fa865ca39d41e5a0e9705df1a8e79b" xsi:type="Realization" />
     <relationship identifier="id-34be397684a2493a98bb21057279ebe6" source="id-24eedbe57d4d4a75a2be9b5c3fb4939b" target="id-2fee372c8a32475ea7f65629501ab088" xsi:type="Composition" />
     <relationship identifier="id-cef14b36ab204f87a42f9128dee8288b" source="id-893e346e0b8b4530a1e8f2ff5639b6e5" target="id-4661dbc4bf794041acbdc131bdb1dc71" xsi:type="Composition" />
@@ -3081,8 +3017,6 @@ Muita lisätietoja: Laki turvallisuusselvityksistä 726/2014; Laki kansainvälis
     <relationship identifier="id-092a117f4552452e87e74c3628bc4d36" source="id-08061a8d26d84b9c84c7e0b1259bd0b6" target="id-4661dbc4bf794041acbdc131bdb1dc71" xsi:type="Realization" />
     <relationship identifier="id-64a17d04af8b403bb66990b0860219d4" source="id-64dfc3fe696a47ef99ccbb3cfa048330" target="id-8dff4a2cd01a4bcbbf94c79d8a8958a1" xsi:type="Realization" />
     <relationship identifier="id-52c705eeeba947cc89691c2f839a429d" source="id-4661dbc4bf794041acbdc131bdb1dc71" target="id-22cdb8e822ba4146bc8aaa8fc60f81ac" xsi:type="Aggregation" />
-    <relationship identifier="id-984" source="id-893" target="id-4661dbc4bf794041acbdc131bdb1dc71" xsi:type="Realization" />
-    <relationship identifier="id-985" source="id-926" target="id-aca3e75f89054a6681cbd7caed3afbf5" xsi:type="Realization" />
     <relationship identifier="id-916" source="id-887" target="id-917" xsi:type="Association" />
     <relationship identifier="id-eeb0f13b5275447bb45b3fa0c88267c2" source="id-219ab04edb43433b9d50adeafe637f5a" target="id-57d7fbc8093144b28ac83cbb6bd3c653" xsi:type="Realization" />
     <relationship identifier="id-c61f600338474c93844d0efb9924aed0" source="id-8385f680286f47b581f36620f4c777f4" target="id-adaed162b7e9499b82a2e8986d571fa6" xsi:type="Realization" />
@@ -3104,20 +3038,16 @@ Muita lisätietoja: Laki turvallisuusselvityksistä 726/2014; Laki kansainvälis
     <relationship identifier="id-901" source="id-855" target="id-870" xsi:type="Association" />
     <relationship identifier="id-eac95202ab3a4222aedc11671c1efede" source="id-9b5113dc8aab46119f182efc8a0fa920" target="id-76ac1fddc2764bbdad7352b8c95cb4b6" xsi:type="Realization" />
     <relationship identifier="id-f51037cb505e47099bfbd618e612b234" source="id-ad18f4c8635744b1b2ba295a7b0656c7" target="id-feece2aac9a945c7967f1ead68b974e8" xsi:type="Composition" />
-    <relationship identifier="id-0b9199dc15614b3198b81a44ab43daff" source="id-d05651cdb5a74dfca2f2622b8247b960" target="id-4af482b54c484c39803b18e91235e2ca" xsi:type="Composition" />
     <relationship identifier="id-fc34b9ecef884b1b8eb790a2b79368d6" source="id-838" target="id-003d6c4d8ef24580967ed7e4490e1130" xsi:type="Realization" />
     <relationship identifier="id-0e338883a3ee422fb4f46b766ed678bf" source="id-87c049c9b84d435e8fbad239ecb679ac" target="id-c7a9722664ad467a8f6f5c608e157bd2" xsi:type="Composition" />
     <relationship identifier="id-9fdfefee406a4d85acdf63eca26b843c" source="id-5f42f30d3312445e9ce89f5ce1091d17" target="id-052a689eddc14a08bdada49baedb0465" xsi:type="Realization" />
     <relationship identifier="id-d0b7860a2fbd4b0380ffa3b15dc1cc77" source="id-f6b45cee06604d7b954d2295779306c5" target="id-6f61d14ce7314244a9256569f06e2203" xsi:type="Aggregation" />
     <relationship identifier="id-7ae402faba3146d1bc7ad3b4aba5bf84" source="id-08061a8d26d84b9c84c7e0b1259bd0b6" target="id-fdc23231507c48489de82311eb59ca8d" xsi:type="Realization" />
-    <relationship identifier="id-cd7709647c05429daf9dd2b1e8800f33" source="id-d05651cdb5a74dfca2f2622b8247b960" target="id-8c19da287cac41c19c28cafe0c3d1710" xsi:type="Composition" />
     <relationship identifier="id-797db6076bad4a3d9883f75f6ca316cf" source="id-1a349db5c3ad4b1e9b5d731f60abe37f" target="id-f6b45cee06604d7b954d2295779306c5" xsi:type="Realization" />
     <relationship identifier="id-6aaf5faada1648bc9c38d65e7f6e694f" source="id-f2cf21752cd84f708111deb2089f4e2f" target="id-66fbbbed0eec4c46a794f2fe27d58bd3" xsi:type="Composition" />
     <relationship identifier="id-46818c53d5d845f49fdd0344350ae073" source="id-75fe20803c5443498f63f1ce37550bce" target="id-e58ad1e112ce4385a75a470cc2fc4db1" xsi:type="Aggregation" />
     <relationship identifier="id-ae49935dc70b426fad9bcf38e50e2fc5" source="id-22cf28dba84941b8b3ef177c6e32b3f2" target="id-99d0bee5b59644a0a069ac37ae6f01fa" xsi:type="Realization" />
-    <relationship identifier="id-982" source="id-893" target="id-bf1210a483dc4945a8a7d99095117418" xsi:type="Realization" />
     <relationship identifier="id-905" source="id-855" target="id-871" xsi:type="Association" />
-    <relationship identifier="id-c2048316554349478ef9071b784b12da" source="id-bd3f62c10f89431ea354bac87e73e156" target="id-24eedbe57d4d4a75a2be9b5c3fb4939b" xsi:type="Composition" />
     <relationship identifier="id-20a7f11d238b41f19d28ac5891004fcc" source="id-d0b69f6ba5964965b594fb62cf3696ba" target="id-26b21c40d8504ebea7837f593cacf9d5" xsi:type="Composition" />
     <relationship identifier="id-3f2f1dfddb6940e9a0d84832b104148c" source="id-1f1f53b70fa14ae1b402735d450fd8ac" target="id-5264d4bd415141aa855284b651d54ae8" xsi:type="Composition" />
     <relationship identifier="id-452d8cdee504447eb67e6379aea59dee" source="id-ba54741288534f63a81197272c783145" target="id-05bd96d7229a4ef08dbf63f0962d4823" xsi:type="Realization" />
@@ -3125,7 +3055,6 @@ Muita lisätietoja: Laki turvallisuusselvityksistä 726/2014; Laki kansainvälis
     <relationship identifier="id-904" source="id-886" target="id-864" xsi:type="Association" />
     <relationship identifier="id-983" source="id-893" target="id-af3dcf08541a4f2e842320ab76dff7e3" xsi:type="Realization" />
     <relationship identifier="id-3d75d7c972c24f9f8b9cdebd31622827" source="id-7d10af634b6d43d59d41526ce25ded88" target="id-2695045ea70a4fe682f560eda1caa652" xsi:type="Realization" />
-    <relationship identifier="id-846" source="id-841" target="id-839" xsi:type="Flow" />
     <relationship identifier="id-340a63d250614dd3bd5cd84dec0b8758" source="id-d0b69f6ba5964965b594fb62cf3696ba" target="id-9c12a623c72a449b927718c81a1d70e3" xsi:type="Composition" />
     <relationship identifier="id-29493ece886f4875ad66021dd11e43d9" source="id-4661dbc4bf794041acbdc131bdb1dc71" target="id-fdc23231507c48489de82311eb59ca8d" xsi:type="Aggregation" />
     <relationship identifier="id-70b56d9f21af4c9b80d9a93ab26efa98" source="id-9bd17e3dcc254589aeaa42dce78a0248" target="id-d1251401c9db473eb8fb7604ab8c51d9" xsi:type="Realization" />
@@ -3158,21 +3087,17 @@ Muita lisätietoja: Laki turvallisuusselvityksistä 726/2014; Laki kansainvälis
     <relationship identifier="id-1db627346ae949ae99fde6d77f5fa1c2" source="id-1f1f53b70fa14ae1b402735d450fd8ac" target="id-f6b45cee06604d7b954d2295779306c5" xsi:type="Composition" />
     <relationship identifier="id-ac3da0ea78a64ed2bcb639754aef152c" source="id-375b2f0e329d4b72acaf4764f7e03709" target="id-214fccb985404eda9c7a0b616e8d0d83" xsi:type="Realization" />
     <relationship identifier="id-9e2e2703b3cb448eb403cdcc8bb7ab43" source="id-27df60ff7b6044b3baa21b679bb38492" target="id-e18b699114d14b33b7a1caa442ca28d7" xsi:type="Realization" />
-    <relationship identifier="id-bae933252e3a4066990f0ebb450447ed" source="id-d05651cdb5a74dfca2f2622b8247b960" target="id-56b63a599f554e3cbed903e26b09d8c6" xsi:type="Composition" />
     <relationship identifier="id-3b5aa0329e864355b4e10091cf172ded" source="id-d8a09c0597ec4890979918642faba29c" target="id-bf1210a483dc4945a8a7d99095117418" xsi:type="Realization" />
     <relationship identifier="id-09462186d50040a7977b9d4507f188ef" source="id-e7b4f7f452584002a49168e439ef92bf" target="id-f0e19e678e7044dbbc9bb3f2bf50b1c6" xsi:type="Composition" />
     <relationship identifier="id-b2ad5bca3dea4f88a1521df2587c4816" source="id-2dc6706c595c4c248afa520984cfcb20" target="id-eaceeff67f1e4873934507ee47232f75" xsi:type="Realization" />
     <relationship identifier="id-c9d1dd3ae9f54ac190e2742d80351804" source="id-20ca20e09bf649c88283f33f6dea15f7" target="id-5bb6643c0ba84b11a2c56604afe9e800" xsi:type="Realization" />
     <relationship identifier="id-3fedfb6835c740c880953b45f55a961a" source="id-37b9f90236d247deb469f18644b4a00e" target="id-2695045ea70a4fe682f560eda1caa652" xsi:type="Realization" />
     <relationship identifier="id-55bdc8cbdfc34b8a81167d3217f2e1a4" source="id-841" target="id-ee881fb280ce4c02beaac943dc88fb66" xsi:type="Flow" />
-    <relationship identifier="id-244a2a2719554b87af11685fae7d2092" source="id-bd3f62c10f89431ea354bac87e73e156" target="id-feece2aac9a945c7967f1ead68b974e8" xsi:type="Composition" />
     <relationship identifier="id-8e840344c6af424bbe23ff9b7141dc1d" source="id-9c882dddd0ea474cb88254ed110e7f3f" target="id-a294f39a8ff143818e3226d42801e64a" xsi:type="Realization" />
     <relationship identifier="id-75cf75b3524e4fbfa6e5d11090ac3c2a" source="id-1f1f53b70fa14ae1b402735d450fd8ac" target="id-2c0d7fafd8a04008bb3555249d7dbb18" xsi:type="Composition" />
     <relationship identifier="id-922" source="id-860" target="id-879" xsi:type="Association" />
     <relationship identifier="id-b15265d0ae41448f95eac4936ea986bc" source="id-8922fa7e359a409caf687211cbfdfb6e" target="id-073fcc38eea447e581aca7c5f0ed48c7" xsi:type="Realization" />
-    <relationship identifier="id-972" source="id-903" target="id-bf1210a483dc4945a8a7d99095117418" xsi:type="Realization" />
     <relationship identifier="id-691defcd975e402d930284e981e4fd77" source="id-dba9e15e8cc34dfeb12427245300bca6" target="id-66fbbbed0eec4c46a794f2fe27d58bd3" xsi:type="Realization" />
-    <relationship identifier="id-923" source="id-853" target="id-856" xsi:type="Association" />
     <relationship identifier="id-e7a1bbc1aa1f4876be812d5d1a036611" source="id-2ad03dae9d6144d4a057e980c04b2fcf" target="id-214fccb985404eda9c7a0b616e8d0d83" xsi:type="Realization" />
     <relationship identifier="id-998" source="id-900" target="id-926" xsi:type="Realization" />
     <relationship identifier="id-900e14cd52ac4b62ac6383a82a005067" source="id-893e346e0b8b4530a1e8f2ff5639b6e5" target="id-103ee3257e2a4d64bb12eee3ef46a447" xsi:type="Composition" />
@@ -3191,9 +3116,7 @@ Muita lisätietoja: Laki turvallisuusselvityksistä 726/2014; Laki kansainvälis
     <relationship identifier="id-37fcdacd62f64d48bfcf7513408e4804" source="id-d5479cfa8409482e94dd01d6ed2be4f4" target="id-23ee77d9398d4eaf8527fec31c2cf8db" xsi:type="Realization" />
     <relationship identifier="id-934" source="id-856" target="id-864" xsi:type="Association" />
     <relationship identifier="id-4b8c821e342d4786b4b33b1273ebf325" source="id-2510280731414c9984772ea7cb074f57" target="id-80eb4b86e0cb493c85f14b676894974b" xsi:type="Realization" />
-    <relationship identifier="id-3be5556b4f02474bb8f45c3a10065229" source="id-bd3f62c10f89431ea354bac87e73e156" target="id-e85dac5aa82746cc9b4f103d85b9cc1b" xsi:type="Composition" />
     <relationship identifier="id-eb50a3525b7d4a53b12aa17b7b0cfa4a" source="id-ad18f4c8635744b1b2ba295a7b0656c7" target="id-490a262b13c64da5983e1d339f9d9dc3" xsi:type="Composition" />
-    <relationship identifier="id-232726971ea548cd995ed68b16b2f8c1" source="id-bd3f62c10f89431ea354bac87e73e156" target="id-551e4ad5ee4d4dbea16922e32d026cd0" xsi:type="Composition" />
     <relationship identifier="id-197034da990345e49a02ed9138591f5f" source="id-951bd22b7c70463587306af56097d704" target="id-214fccb985404eda9c7a0b616e8d0d83" xsi:type="Realization" />
     <relationship identifier="id-1f270166965744ef80ee2c3ce972796e" source="id-9cb6a11aedd144f18288aa15826848e6" target="id-073fcc38eea447e581aca7c5f0ed48c7" xsi:type="Realization" />
     <relationship identifier="id-41422d04870c4e878934c0df1f54df98" source="id-551e4ad5ee4d4dbea16922e32d026cd0" target="id-4ac9ac4ffbc94bf4b897c25a86b0fd77" xsi:type="Composition" />
@@ -3216,27 +3139,22 @@ Muita lisätietoja: Laki turvallisuusselvityksistä 726/2014; Laki kansainvälis
     <relationship identifier="id-24d4a279717c4668a3e68989e7d2f107" source="id-043de622d9e44bdf954593b76a65dbce" target="id-26b21c40d8504ebea7837f593cacf9d5" xsi:type="Realization" />
     <relationship identifier="id-55efe48e88864e64b00ef102933013e0" source="id-5f42f30d3312445e9ce89f5ce1091d17" target="id-5264d4bd415141aa855284b651d54ae8" xsi:type="Realization" />
     <relationship identifier="id-c14ba3a8459044e89f0864acbe5570e2" source="id-d0b69f6ba5964965b594fb62cf3696ba" target="id-4af482b54c484c39803b18e91235e2ca" xsi:type="Composition" />
-    <relationship identifier="id-788ad4c767014ddcb290f433dc58f17a" source="id-d05651cdb5a74dfca2f2622b8247b960" target="id-23ee77d9398d4eaf8527fec31c2cf8db" xsi:type="Composition" />
     <relationship identifier="id-9001e11f06e7463e81c37c6edc205216" source="id-72b059d52ef8485a9a455f6450932733" target="id-f4594ee5730f40659f9b23b503efec5e" xsi:type="Realization" />
     <relationship identifier="id-26a4eeeace7845cfa6f7cec9969eab3c" source="id-6042367b58ed4f92bc11cc6a26b520f1" target="id-9d8abe61d5114c3ebd88323544ca1e75" xsi:type="Realization" />
     <relationship identifier="id-17bce0fc2866455c9087b8fa4d0c3d95" source="id-0d100eb5517f49b38cc02c4599b3ba85" target="id-fdc23231507c48489de82311eb59ca8d" xsi:type="Realization" />
     <relationship identifier="id-ffb6607d6eee437cbddb7014c9616336" source="id-521b1f7318d74232af0807c3eb66601b" target="id-c2d624d67b954ef282f908720c4e7b6c" xsi:type="Realization" />
     <relationship identifier="id-994d0ae0a1f64746bfb5e64977026d2e" source="id-551e4ad5ee4d4dbea16922e32d026cd0" target="id-a294f39a8ff143818e3226d42801e64a" xsi:type="Composition" />
     <relationship identifier="id-9e49b5349cfd4e9596f4181228b87f78" source="id-24eedbe57d4d4a75a2be9b5c3fb4939b" target="id-a92cc7a3322f400483351ef66e9be74a" xsi:type="Composition" />
-    <relationship identifier="id-4173bbd42e3e469fb4b33c15982d6c1f" source="id-867" target="id-788fb749f98d41959709549a1dfe5f3b" xsi:type="Realization" />
-    <relationship identifier="id-1016" source="id-955" target="id-852" xsi:type="Association" />
     <relationship identifier="id-e5ba1a3d201f4ce7a7cfb732da15faf0" source="id-9cb6a11aedd144f18288aa15826848e6" target="id-9d8abe61d5114c3ebd88323544ca1e75" xsi:type="Realization" />
     <relationship identifier="id-37a2dd9abf70430a955c5a18c55bdb6d" source="id-79a6f2ca284b466b8351a72a20ff3510" target="id-80eb4b86e0cb493c85f14b676894974b" xsi:type="Realization" />
     <relationship identifier="id-c99bfc7b5d804962a3aa00cdac863378" source="id-c7a9722664ad467a8f6f5c608e157bd2" target="id-a6590235339d461cb4ad172a00d626b4" xsi:type="Composition" />
     <relationship identifier="id-2417eeda0a944a888e880a29578ce7b0" source="id-903" target="id-d8a09c0597ec4890979918642faba29c" xsi:type="Realization" />
     <relationship identifier="id-6c0044aace7747c5803d613ff2ecbe69" source="id-0e220c810211456999730171f1e16e50" target="id-5264d4bd415141aa855284b651d54ae8" xsi:type="Realization" />
-    <relationship identifier="id-933" source="id-856" target="id-869" xsi:type="Association" />
     <relationship identifier="id-cdb100422a394b68832e35108d25ccfd" source="id-65e41f7b52874f3b97b5dfc34b5b67f0" target="id-214fccb985404eda9c7a0b616e8d0d83" xsi:type="Realization" />
     <relationship identifier="id-f22e8872af734244910de53fdc145a76" source="id-226cdd7c2b6145c2a05f5dde75881f47" target="id-d05651cdb5a74dfca2f2622b8247b960" xsi:type="Composition" />
     <relationship identifier="id-9f6e23f638be4ce28a1d129fe548972f" source="id-20805aa392f74cebad1081380398b69c" target="id-e2603ae35cd046d1ba90606ad392a149" xsi:type="Realization" />
     <relationship identifier="id-9426af194b0b47de98a5c9b7b670af3a" source="id-9b3cbbb64f614f47b47dc73f5ae219b0" target="id-c546eb5d3dd748bc8c4eef5b8763a760" xsi:type="Realization" />
     <relationship identifier="id-c8470e802eae43a4af4e3995a75b8737" source="id-24eedbe57d4d4a75a2be9b5c3fb4939b" target="id-9da61d33440d4a18aefe973a1b55851b" xsi:type="Composition" />
-    <relationship identifier="id-976" source="id-900" target="id-893" xsi:type="Realization" />
     <relationship identifier="id-9745a7f03e284c01b5f9aca706e87227" source="id-d0b69f6ba5964965b594fb62cf3696ba" target="id-8c19da287cac41c19c28cafe0c3d1710" xsi:type="Composition" />
     <relationship identifier="id-c838263403194782b19f578438465799" source="id-fa1e6377a67340888b263a55c9c67b87" target="id-ab9c0f10ef314b24b7e095736a41a502" xsi:type="Composition" />
     <relationship identifier="id-01db4da63f6e4145aa69d4ebc7a388f4" source="id-8922fa7e359a409caf687211cbfdfb6e" target="id-9d8abe61d5114c3ebd88323544ca1e75" xsi:type="Realization" />
@@ -3246,9 +3164,7 @@ Muita lisätietoja: Laki turvallisuusselvityksistä 726/2014; Laki kansainvälis
     <relationship identifier="id-b611cd02a8b148f8abd82a5579d43bdc" source="id-2afe4eed5f7441b184f0dfbf22c9eae7" target="id-f4594ee5730f40659f9b23b503efec5e" xsi:type="Realization" />
     <relationship identifier="id-8a4a418e96a64d39b872614c8adb0a51" source="id-fa1e6377a67340888b263a55c9c67b87" target="id-23ee77d9398d4eaf8527fec31c2cf8db" xsi:type="Composition" />
     <relationship identifier="id-e3a75ffdfa8d431f8e757d72e5f07282" source="id-fa550da49b604987a1fa428ac03672e3" target="id-f6b45cee06604d7b954d2295779306c5" xsi:type="Realization" />
-    <relationship identifier="id-3bb36895eeb64727a53064c0a6f3f588" source="id-bd3f62c10f89431ea354bac87e73e156" target="id-7a285c7e95b344bfa70f3c9480849df8" xsi:type="Composition" />
     <relationship identifier="id-eed20670b8874c6893acde759d401c5c" source="id-073fcc38eea447e581aca7c5f0ed48c7" target="id-214fccb985404eda9c7a0b616e8d0d83" xsi:type="Aggregation" />
-    <relationship identifier="id-b48d59d080144bf4a3b95ccec083e502" source="id-d05651cdb5a74dfca2f2622b8247b960" target="id-57d7fbc8093144b28ac83cbb6bd3c653" xsi:type="Composition" />
     <relationship identifier="id-3d69a27f09814051b459fd413946352f" source="id-feece2aac9a945c7967f1ead68b974e8" target="id-e18b699114d14b33b7a1caa442ca28d7" xsi:type="Composition" />
     <relationship identifier="id-fce05c033f114809ab414bf7ce29465d" source="id-d05651cdb5a74dfca2f2622b8247b960" target="id-fa1e6377a67340888b263a55c9c67b87" xsi:type="Composition" />
     <relationship identifier="id-52bb6914b127475e950b7386307dcd9a" source="id-893" target="id-d8a09c0597ec4890979918642faba29c" xsi:type="Realization" />
@@ -3256,22 +3172,17 @@ Muita lisätietoja: Laki turvallisuusselvityksistä 726/2014; Laki kansainvälis
     <relationship identifier="id-975" source="id-944" target="id-950" xsi:type="Assignment" />
     <relationship identifier="id-aeb56ca59e284e19beb56becd811c044" source="id-900" target="id-07417dcd1c464612ac389c14bf280aff" xsi:type="Realization" />
     <relationship identifier="id-b8247125f2e0470da2bf96d326c4a7f8" source="id-24eedbe57d4d4a75a2be9b5c3fb4939b" target="id-ee64b1f8ba2e4372967fac834a969887" xsi:type="Composition" />
-    <relationship identifier="id-0a5539061cb0496caa83a5c4779cee1c" source="id-866" target="id-0d100eb5517f49b38cc02c4599b3ba85" xsi:type="Realization" />
     <relationship identifier="id-e3dfdcc600f3408a90a5f88887803d04" source="id-3f62417b741646a488166cf2974f72a1" target="id-aca3e75f89054a6681cbd7caed3afbf5" xsi:type="Realization" />
-    <relationship identifier="id-911" source="id-866" target="id-4661dbc4bf794041acbdc131bdb1dc71" xsi:type="Realization" />
     <relationship identifier="id-996" source="id-931" target="id-885" xsi:type="Association" />
     <relationship identifier="id-54eff8ca7f074cc3b792d27858704f3a" source="id-951bd22b7c70463587306af56097d704" target="id-073fcc38eea447e581aca7c5f0ed48c7" xsi:type="Realization" />
     <relationship identifier="id-997" source="id-955" target="id-959" xsi:type="Association" />
-    <relationship identifier="id-910" source="id-866" target="id-bacf4dbcef39424bb5f56ba065330dd4" xsi:type="Realization" />
     <relationship identifier="id-fc2e402fef2a420e8fd62f0218cee8f3" source="id-8f625c65a6764043bd164fd3d7a66b5f" target="id-99d0bee5b59644a0a069ac37ae6f01fa" xsi:type="Realization" />
     <relationship identifier="id-eb8078b736fa455392911dfdcca2942e" source="id-6042367b58ed4f92bc11cc6a26b520f1" target="id-073fcc38eea447e581aca7c5f0ed48c7" xsi:type="Realization" />
-    <relationship identifier="id-eded541365e345f68191406408f708b9" source="id-bd3f62c10f89431ea354bac87e73e156" target="id-e7b4f7f452584002a49168e439ef92bf" xsi:type="Composition" />
     <relationship identifier="id-9f5e63b03e3a43159df1b8804c87c771" source="id-7aabf16a3a4a494a978887d93df662a8" target="id-e18b699114d14b33b7a1caa442ca28d7" xsi:type="Realization" />
     <relationship identifier="id-891" source="id-886" target="id-885" xsi:type="Aggregation" />
     <relationship identifier="id-23aa5ee22a914c25969f7fd2383a4924" source="id-0242adfccc3f49e68289cf1bd951c6e4" target="id-d1251401c9db473eb8fb7604ab8c51d9" xsi:type="Realization" />
     <relationship identifier="id-899" source="id-851" target="id-900" xsi:type="Realization" />
     <relationship identifier="id-d2e75b13b8294ef993e3c889e95ed344" source="id-87c049c9b84d435e8fbad239ecb679ac" target="id-1f1f53b70fa14ae1b402735d450fd8ac" xsi:type="Composition" />
-    <relationship identifier="id-66082231b984492ea108bed67a8c0f5d" source="id-d05651cdb5a74dfca2f2622b8247b960" target="id-e2603ae35cd046d1ba90606ad392a149" xsi:type="Composition" />
     <relationship identifier="id-796df17f2e45492291d6ba659ea15a36" source="id-bc7deb76ab2149ff99cdeffba2962d44" target="id-e58ad1e112ce4385a75a470cc2fc4db1" xsi:type="Realization" />
     <relationship identifier="id-c64eda9873ed46f492763786c38a07a2" source="id-e02610f139c147eca5f3a2c93576236b" target="id-75fe20803c5443498f63f1ce37550bce" xsi:type="Realization" />
     <relationship identifier="id-97ab58912c454da9acad9f33014e530d" source="id-034816c8796d4a61b75658341cbe5a60" target="id-5264d4bd415141aa855284b651d54ae8" xsi:type="Realization" />
@@ -3279,19 +3190,16 @@ Muita lisätietoja: Laki turvallisuusselvityksistä 726/2014; Laki kansainvälis
     <relationship identifier="id-61eda52a7e1d44af920bc739f0fe09ee" source="id-f2cf21752cd84f708111deb2089f4e2f" target="id-56e9ceb271d5479badea749e3daff549" xsi:type="Composition" />
     <relationship identifier="id-6da6339d31af4b6ea8e09cb5c0d3283e" source="id-5264d4bd415141aa855284b651d54ae8" target="id-052a689eddc14a08bdada49baedb0465" xsi:type="Aggregation" />
     <relationship identifier="id-8e9221e0227948a7a74f6a0c06b9988c" source="id-1d2e3f3f14ea4cd8848afd2f4b79862a" target="id-f4594ee5730f40659f9b23b503efec5e" xsi:type="Realization" />
-    <relationship identifier="id-906" source="id-867" target="id-103ee3257e2a4d64bb12eee3ef46a447" xsi:type="Realization" />
     <relationship identifier="id-2e34932c9308497fa80de55a225e20df" source="id-903" target="id-af3dcf08541a4f2e842320ab76dff7e3" xsi:type="Realization" />
     <relationship identifier="id-886e8d95f1f84dc7be47b34138ffb48f" source="id-429bd42f24424f5eae9a8f2b4052b739" target="id-073fcc38eea447e581aca7c5f0ed48c7" xsi:type="Realization" />
     <relationship identifier="id-3b44c25e37634de1a7c4730fb9701199" source="id-003d6c4d8ef24580967ed7e4490e1130" target="id-4661dbc4bf794041acbdc131bdb1dc71" xsi:type="Realization" />
     <relationship identifier="id-5968271e769a42c09b0698d14e5353a3" source="id-c7a9722664ad467a8f6f5c608e157bd2" target="id-e9d8910a21b54340a9c5c288def4298d" xsi:type="Composition" />
     <relationship identifier="id-7dbf3de25dff43f7abcc523363cb2e84" source="id-785f06bfd0a74bdfa3311ff4c530b1f8" target="id-6f2010cb5a59439799ab6c4099e4c394" xsi:type="Realization" />
     <relationship identifier="id-fe43d7ff7f3f45ccaf6ee76e5ed01e02" source="id-551e4ad5ee4d4dbea16922e32d026cd0" target="id-38f0622aac3d4410bf1d6c721e3c8f23" xsi:type="Composition" />
-    <relationship identifier="id-898" source="id-866" target="id-aca3e75f89054a6681cbd7caed3afbf5" xsi:type="Realization" />
     <relationship identifier="id-5cc9bc09f521498fb538ff334d94947c" source="id-7a285c7e95b344bfa70f3c9480849df8" target="id-a7512976da9940e2bde830b04dd69374" xsi:type="Composition" />
     <relationship identifier="id-bc2693c4429a481da7f812663921a08e" source="id-506afb6ef4e94c7f8b699697d1ba959b" target="id-a92cc7a3322f400483351ef66e9be74a" xsi:type="Realization" />
     <relationship identifier="id-1933f6197f1444099ec9dcc3da113622" source="id-d0b69f6ba5964965b594fb62cf3696ba" target="id-57d7fbc8093144b28ac83cbb6bd3c653" xsi:type="Composition" />
     <relationship identifier="id-59b4eab85ff94125a85e40cc7fcb8bde" source="id-fa1e6377a67340888b263a55c9c67b87" target="id-e2603ae35cd046d1ba90606ad392a149" xsi:type="Composition" />
-    <relationship identifier="id-07c8012e61b4421488d72067eb9df48d" source="id-bd3f62c10f89431ea354bac87e73e156" target="id-f2cf21752cd84f708111deb2089f4e2f" xsi:type="Composition" />
     <relationship identifier="id-6f38187b4c7c4dfb95160f6ee34e0cc4" source="id-688ce2e2dc224b659dc0c24753502279" target="id-f6b45cee06604d7b954d2295779306c5" xsi:type="Realization" />
     <relationship identifier="id-973" source="id-944" target="id-948" xsi:type="Assignment" />
     <relationship identifier="id-921" source="id-884" target="id-883" xsi:type="Aggregation" />
@@ -3314,9 +3222,7 @@ Muita lisätietoja: Laki turvallisuusselvityksistä 726/2014; Laki kansainvälis
     <relationship identifier="id-e455987d03be40afaaa10d35ef030451" source="id-ad18f4c8635744b1b2ba295a7b0656c7" target="id-e85dac5aa82746cc9b4f103d85b9cc1b" xsi:type="Composition" />
     <relationship identifier="id-c53508245d1a49688c9c8f22f95a5dff" source="id-4ba0de348d8049ff88e9a4be029f4b23" target="id-8dff4a2cd01a4bcbbf94c79d8a8958a1" xsi:type="Realization" />
     <relationship identifier="id-929" source="id-870" target="id-871" xsi:type="Serving" />
-    <relationship identifier="id-889" source="id-884" target="id-4661dbc4bf794041acbdc131bdb1dc71" xsi:type="Realization" />
     <relationship identifier="id-5f25911f2e834fd0b8e40d6d6d23e8f3" source="id-310e2f5ac08745939939f33a4d0ac08b" target="id-a7512976da9940e2bde830b04dd69374" xsi:type="Realization" />
-    <relationship identifier="id-8358f97f829f4a1c8496c66e0d042437" source="id-788fb749f98d41959709549a1dfe5f3b" target="id-af3dcf08541a4f2e842320ab76dff7e3" xsi:type="Realization" />
     <relationship identifier="id-a49273717a6947339151c0c441c8f44b" source="id-f9899540978b43cf94074b4e31982e3b" target="id-ee64b1f8ba2e4372967fac834a969887" xsi:type="Realization" />
     <relationship identifier="id-404537d2431e47859456e338cf5c3986" source="id-05fe11a0a94849109cb1c18d6f83b3ab" target="id-0a2c0f3881cf48f9af55315813ad9e76" xsi:type="Realization" />
     <relationship identifier="id-848" source="id-841" target="id-838" xsi:type="Realization" />
@@ -3326,16 +3232,39 @@ Muita lisätietoja: Laki turvallisuusselvityksistä 726/2014; Laki kansainvälis
     <relationship identifier="id-518f9d502b74418aad8fa142948bd320" source="id-91e3f27634ce4941bb2a452f8d07494b" target="id-6f2010cb5a59439799ab6c4099e4c394" xsi:type="Realization" />
     <relationship identifier="id-987" source="id-959" target="id-852" xsi:type="Association" />
     <relationship identifier="id-5f9c68a62f7847bdaa79525a4a7de418" source="id-587b1fddf19844e1b87151aa25872ae0" target="id-9c12a623c72a449b927718c81a1d70e3" xsi:type="Realization" />
-    <relationship identifier="id-478c338ab8c045f49e500e609ac5ef55" source="id-d05651cdb5a74dfca2f2622b8247b960" target="id-76ac1fddc2764bbdad7352b8c95cb4b6" xsi:type="Composition" />
     <relationship identifier="id-992" source="id-955" target="id-871" xsi:type="Association" />
     <relationship identifier="id-979" source="id-917" target="id-883" xsi:type="Association" />
-    <relationship identifier="id-f0d9dda6d9c44e40839e6052ba486918" source="id-879" target="id-866" xsi:type="Realization" />
     <relationship identifier="id-ab13b90f228c48febe4021bc1974dc01" source="id-4cf2238f47f14d0f9a59abce6a3444a9" target="id-7008456cd515408c988181651ed65fd6" xsi:type="Realization" />
     <relationship identifier="id-33880adcac824ceaae80e2893b3b3bd8" source="id-b1ba671f27fc4494a6ac1fe98a0f1bb0" target="id-0d222eb12b9f42939f810cbc4f123679" xsi:type="Realization" />
-    <relationship identifier="id-a00d1b126c42400e84afd5e2268df131" source="id-d05651cdb5a74dfca2f2622b8247b960" target="id-961236e9f6f6488480e71152210d81c5" xsi:type="Composition" />
     <relationship identifier="id-f8bc4a3ff91a4f3f8f8cff4e4cc44c15" source="id-bd3f62c10f89431ea354bac87e73e156" target="id-ad18f4c8635744b1b2ba295a7b0656c7" xsi:type="Composition" />
     <relationship identifier="id-02bb53294e6642ff9d3e7b3504fc9b56" source="id-c611b5f90e5140d1a00429923cc9b59e" target="id-314c7745b65c46ff91c3097efeeb4847" xsi:type="Realization" />
     <relationship identifier="id-262028076d454e0bab57dfabfd549607" source="id-e4b816f774c646b8bb1c1eb3ff56a0bf" target="id-01fa35b2585b4dffa67cc0adb7366046" xsi:type="Realization" />
+    <relationship identifier="id-420e38c0cdb0490fab7c0fea0afbac0a" source="id-d4885f2be4cd464b9465bd82e02a8fc5" target="id-219574210c684dfd913599caf1e41aea" xsi:type="Assignment" />
+    <relationship identifier="id-db917cf1167d45e68156626e1f94eabc" source="id-981037fcd46f4581804284c5a6b059c4" target="id-d3d5b238ffad4cc497947b4b9d50e209" xsi:type="Association" />
+    <relationship identifier="id-521c84f8dc5141a9af48bb9aaa1a65ae" source="id-4d94cb4c7c2a4c02acca73ebfc7738a6" target="id-d3d5b238ffad4cc497947b4b9d50e209" xsi:type="Association" />
+    <relationship identifier="id-2eaba521c938422285eb3d69814daa10" source="id-4588ac653b3046bfb0e15b3838dd5575" target="id-490a0e6fbb894aaa8099d0fbe7a34623" xsi:type="Association" />
+    <relationship identifier="id-4da05d73b6074602b76718580b86f5d6" source="id-219574210c684dfd913599caf1e41aea" target="id-d3d5b238ffad4cc497947b4b9d50e209" xsi:type="Association" />
+    <relationship identifier="id-430b20800e634522b3c6b3fe9d96cee2" source="id-ebd120bc44854c13b66244a47232e2a3" target="id-d3d5b238ffad4cc497947b4b9d50e209" xsi:type="Association" />
+    <relationship identifier="id-3bc0cf7d0799448db55f4bb115867d6a" source="id-490a0e6fbb894aaa8099d0fbe7a34623" target="id-d3d5b238ffad4cc497947b4b9d50e209" xsi:type="Association" />
+    <relationship identifier="id-a3e9e70c72d6437c9bd33ccfa80d6519" source="id-f66368ccfb094ef1a41f4e1ce890e778" target="id-d3d5b238ffad4cc497947b4b9d50e209" xsi:type="Association" />
+    <relationship identifier="id-71dbd8652a9749aba4877248a7f9bb47" source="id-f66368ccfb094ef1a41f4e1ce890e778" target="id-4588ac653b3046bfb0e15b3838dd5575" xsi:type="Association" />
+    <relationship identifier="id-439ed76364134d03a2bf5b2335d9f0b6" source="id-c7c74d42af60412288117aa1f659bf1a" target="id-d3d5b238ffad4cc497947b4b9d50e209" xsi:type="Association" />
+    <relationship identifier="id-19e5f3a8e68d45ef935978a3db7652ae" source="id-490a0e6fbb894aaa8099d0fbe7a34623" target="id-ebd120bc44854c13b66244a47232e2a3" xsi:type="Association" />
+    <relationship identifier="id-3d23b9a415e245ae8663e7bccb87e1db" source="id-4d94cb4c7c2a4c02acca73ebfc7738a6" target="id-c7c74d42af60412288117aa1f659bf1a" xsi:type="Association" />
+    <relationship identifier="id-02697cc481184212a16ef5c571e48dbd" source="id-26eeff98db154ece8fd2d4a6cbe6fccd" target="id-d3d5b238ffad4cc497947b4b9d50e209" xsi:type="Association" />
+    <relationship identifier="id-af957a7072064f459eec1fc808f7a895" source="id-219574210c684dfd913599caf1e41aea" target="id-4588ac653b3046bfb0e15b3838dd5575" xsi:type="Association" />
+    <relationship identifier="id-ba1b28c68bcf45eda61b81c1c32af410" source="id-3206bd3d996b4fcda2022c22a62b82d0" target="id-d84ac0eae5034279aa988354228f9666" xsi:type="Composition" />
+    <relationship identifier="id-0434df8b33254ac796f47a1fa97b9a1b" source="id-4b2f6cd5b4584c6e8d4a1b17eace3ab3" target="id-3206bd3d996b4fcda2022c22a62b82d0" xsi:type="Composition" />
+    <relationship identifier="id-59df5c9290ac47a2ad9483f357af8580" source="id-f66368ccfb094ef1a41f4e1ce890e778" target="id-c7c74d42af60412288117aa1f659bf1a" xsi:type="Influence" modifier="+" />
+    <relationship identifier="id-61e76f553b3e49b8b0d379f39595f32e" source="id-ebd120bc44854c13b66244a47232e2a3" target="id-4588ac653b3046bfb0e15b3838dd5575" xsi:type="Influence" modifier="-" />
+    <relationship identifier="id-6377e148c24f41208257782576ece31e" source="id-981037fcd46f4581804284c5a6b059c4" target="id-4d94cb4c7c2a4c02acca73ebfc7738a6" xsi:type="Realization" />
+    <relationship identifier="id-d95cd914b110420ba713673862cf6e19" source="id-ebd120bc44854c13b66244a47232e2a3" target="id-26eeff98db154ece8fd2d4a6cbe6fccd" xsi:type="Realization" />
+    <relationship identifier="id-ef115233d5004867823b318c7bd36b4b" source="id-bb949d919d7a4546b21cef33c379d9e0" target="id-4d94cb4c7c2a4c02acca73ebfc7738a6" xsi:type="Realization" />
+    <relationship identifier="id-56eec7bea6f94f2790305da35692985b" source="id-26eeff98db154ece8fd2d4a6cbe6fccd" target="id-bb949d919d7a4546b21cef33c379d9e0" xsi:type="Realization" />
+    <relationship identifier="id-ee50568323f84df2b6b3266ce187ff48" source="id-873" target="id-a8d3994a33044d3f949a597df4160b0c" xsi:type="Realization" />
+    <relationship identifier="id-229c8a4901c34a79b60fb0c19e7391e6" source="id-61eb3abeb82244fd84fbbd6148a7544f" target="id-d84ac0eae5034279aa988354228f9666" xsi:type="Realization" />
+    <relationship identifier="id-14f09760d7ca435889b14229a10c3eed" source="id-26eeff98db154ece8fd2d4a6cbe6fccd" target="id-981037fcd46f4581804284c5a6b059c4" xsi:type="Specialization" />
+    <relationship identifier="id-f9e259a47fe347d99813e08fba66ca17" source="id-219574210c684dfd913599caf1e41aea" target="id-f66368ccfb094ef1a41f4e1ce890e778" xsi:type="Triggering" />
   </relationships>
   <organizations>
     <item>
@@ -3347,7 +3276,6 @@ Muita lisätietoja: Laki turvallisuusselvityksistä 726/2014; Laki kansainvälis
       <item>
         <label xml:lang="en">katakri-fi</label>
         <item identifierRef="id-955" />
-        <item identifierRef="id-788fb749f98d41959709549a1dfe5f3b" />
         <item identifierRef="id-903" />
         <item identifierRef="id-917" />
         <item identifierRef="id-4ee99c16eb5f4562b29b84acac28ceed" />
@@ -3359,7 +3287,6 @@ Muita lisätietoja: Laki turvallisuusselvityksistä 726/2014; Laki kansainvälis
         <item identifierRef="id-926" />
         <item identifierRef="id-944" />
         <item identifierRef="id-ee881fb280ce4c02beaac943dc88fb66" />
-        <item identifierRef="id-1493069b8114476fa783f9333628ea55" />
         <item identifierRef="id-959" />
       </item>
       <item identifierRef="id-ebd120bc44854c13b66244a47232e2a3" />
@@ -3372,7 +3299,6 @@ Muita lisätietoja: Laki turvallisuusselvityksistä 726/2014; Laki kansainvälis
       <item>
         <label xml:lang="en">katakri-fi</label>
         <item identifierRef="id-841" />
-        <item identifierRef="id-839" />
         <item identifierRef="id-838" />
       </item>
     </item>
@@ -3383,15 +3309,12 @@ Muita lisätietoja: Laki turvallisuusselvityksistä 726/2014; Laki kansainvälis
         <item identifierRef="id-870" />
         <item identifierRef="id-864" />
         <item identifierRef="id-871" />
-        <item identifierRef="id-867" />
         <item identifierRef="id-873" />
         <item identifierRef="id-872" />
-        <item identifierRef="id-866" />
         <item identifierRef="id-859" />
         <item identifierRef="id-875" />
         <item identifierRef="id-860" />
         <item identifierRef="id-885" />
-        <item identifierRef="id-853" />
         <item identifierRef="id-852" />
         <item identifierRef="id-884" />
         <item identifierRef="id-886" />
@@ -3404,7 +3327,6 @@ Muita lisätietoja: Laki turvallisuusselvityksistä 726/2014; Laki kansainvälis
         <item identifierRef="id-882" />
         <item identifierRef="id-856" />
         <item identifierRef="id-881" />
-        <item identifierRef="id-868" />
         <item identifierRef="id-869" />
       </item>
     </item>
@@ -3666,24 +3588,17 @@ Muita lisätietoja: Laki turvallisuusselvityksistä 726/2014; Laki kansainvälis
         <item identifierRef="id-efe24af45891430a9d4faaed24271a91" />
         <item identifierRef="id-9cadc7bac2ca415eb7a4eda9888b1c95" />
         <item identifierRef="id-b8bb3f3c51d44441886df6976861ef28" />
-        <item identifierRef="id-c7e45dd43d0044349f73e6fd2e9fdb02" />
         <item identifierRef="id-925" />
         <item identifierRef="id-919" />
         <item identifierRef="id-f8fcb39a0afa4e5392b3f7fda3a49abd" />
         <item identifierRef="id-1d18455e0d1e43fbac28e5997644a973" />
         <item identifierRef="id-0470780145cb4fc998c57d7625d0273f" />
         <item identifierRef="id-34f868eea334488194393f90ca60e34e" />
-        <item identifierRef="id-907" />
-        <item identifierRef="id-2e1a14f7cc84478a9763b40cad7909c8" />
         <item identifierRef="id-4f2127644c7245029d19cb8fa7c7ed31" />
         <item identifierRef="id-d6235150d19c4cbd98b4762763c757df" />
         <item identifierRef="id-892" />
         <item identifierRef="id-83ea98884c6d4b28abb090614e8981ed" />
-        <item identifierRef="id-24b83fefc29c4e0aa93495158b3b1882" />
-        <item identifierRef="id-890" />
         <item identifierRef="id-8201f16333e24b6c9257dfef6c925a16" />
-        <item identifierRef="id-7d5b181b69754fe58be97d5d45a259d5" />
-        <item identifierRef="id-847" />
         <item identifierRef="id-0452f8f347f3425a86452bab004b8f56" />
         <item identifierRef="id-56da5719863f45cd9275d3be8d2bb54b" />
         <item identifierRef="id-d0a4056572c04593bb9a94c74119a320" />
@@ -3695,8 +3610,6 @@ Muita lisätietoja: Laki turvallisuusselvityksistä 726/2014; Laki kansainvälis
         <item identifierRef="id-1e4682cd06284b29ab9ef6e56c5b099c" />
         <item identifierRef="id-e3faca7c317449db9c06976e64de97cf" />
         <item identifierRef="id-16e3804700bc43dd93bb695ba31158f2" />
-        <item identifierRef="id-5cfaf887fed246418899c3294ab210b3" />
-        <item identifierRef="id-edd36cfd32e04dc4b7b6ffbaecd4804e" />
         <item identifierRef="id-1b21552ad05647d68eaa25df236ce826" />
         <item identifierRef="id-ecb14708ceba470fbe8ddb964a27d619" />
         <item identifierRef="id-30e7bed986b64e248f9331bd0c2cbd8a" />
@@ -3706,16 +3619,12 @@ Muita lisätietoja: Laki turvallisuusselvityksistä 726/2014; Laki kansainvälis
         <item identifierRef="id-8d167c3c5c6b44f29b5edf26278a2660" />
         <item identifierRef="id-d78af4a2a72f41c390bfa37071bb4bab" />
         <item identifierRef="id-cbab6655ca2d417a96f125aa29f84838" />
-        <item identifierRef="id-e11329e33f7642e4a92b854cba1a961a" />
         <item identifierRef="id-928" />
         <item identifierRef="id-90eabbd0f0344504a458d274d0bb1af1" />
         <item identifierRef="id-c0f795a00d404c7c9bc4f3f89aac44f4" />
-        <item identifierRef="id-7c1ba02b8b4b450f9fe062e9ac677a13" />
         <item identifierRef="id-92da8b169b354fa29efe39ad01bc5bd5" />
         <item identifierRef="id-22cb813736274eb19158341faaf24903" />
-        <item identifierRef="id-2ff0cf7f1a7a43328775d4667ec1c764" />
         <item identifierRef="id-b2c68942429042878028a8a0cfd3595c" />
-        <item identifierRef="id-1815b35ea926480c85bd66d4f5b1740e" />
         <item identifierRef="id-b5b9ab3a1b794d7fa3be298bfc755c24" />
         <item identifierRef="id-fa0835c5904d494d8d870d29494c400b" />
         <item identifierRef="id-605c33e3a68c493daa16e2900f71721a" />
@@ -3726,8 +3635,6 @@ Muita lisätietoja: Laki turvallisuusselvityksistä 726/2014; Laki kansainvälis
         <item identifierRef="id-45f6fce99e234830aace3286de70a796" />
         <item identifierRef="id-04aad383ca88426d84b7af9841e504d1" />
         <item identifierRef="id-c8bd87313cba4f6eb75c1164ca7b8fc8" />
-        <item identifierRef="id-2b25c891b8b5488bbd7686486e3435c1" />
-        <item identifierRef="id-894" />
         <item identifierRef="id-3915d4a172e44567ac2934af45b93201" />
         <item identifierRef="id-e1499cd91b964c8caa220e5aa6143f27" />
         <item identifierRef="id-f2fe2e9a682d4f62ae3cf721c9a0f336" />
@@ -3740,9 +3647,7 @@ Muita lisätietoja: Laki turvallisuusselvityksistä 726/2014; Laki kansainvälis
         <item identifierRef="id-c1eac824d7d94f80b35163153828b4a1" />
         <item identifierRef="id-2034997f5b664f6a890c1b42978e8e95" />
         <item identifierRef="id-dcc2eedcd753493ab4539c8af54de909" />
-        <item identifierRef="id-909" />
         <item identifierRef="id-d4dd5c2b56774eb2bd27b5950abfb87c" />
-        <item identifierRef="id-908" />
         <item identifierRef="id-9522f40019154ae4b317fad79fe4e581" />
         <item identifierRef="id-34be397684a2493a98bb21057279ebe6" />
         <item identifierRef="id-cef14b36ab204f87a42f9128dee8288b" />
@@ -3756,8 +3661,6 @@ Muita lisätietoja: Laki turvallisuusselvityksistä 726/2014; Laki kansainvälis
         <item identifierRef="id-092a117f4552452e87e74c3628bc4d36" />
         <item identifierRef="id-64a17d04af8b403bb66990b0860219d4" />
         <item identifierRef="id-52c705eeeba947cc89691c2f839a429d" />
-        <item identifierRef="id-984" />
-        <item identifierRef="id-985" />
         <item identifierRef="id-916" />
         <item identifierRef="id-eeb0f13b5275447bb45b3fa0c88267c2" />
         <item identifierRef="id-c61f600338474c93844d0efb9924aed0" />
@@ -3779,20 +3682,16 @@ Muita lisätietoja: Laki turvallisuusselvityksistä 726/2014; Laki kansainvälis
         <item identifierRef="id-901" />
         <item identifierRef="id-eac95202ab3a4222aedc11671c1efede" />
         <item identifierRef="id-f51037cb505e47099bfbd618e612b234" />
-        <item identifierRef="id-0b9199dc15614b3198b81a44ab43daff" />
         <item identifierRef="id-fc34b9ecef884b1b8eb790a2b79368d6" />
         <item identifierRef="id-0e338883a3ee422fb4f46b766ed678bf" />
         <item identifierRef="id-9fdfefee406a4d85acdf63eca26b843c" />
         <item identifierRef="id-d0b7860a2fbd4b0380ffa3b15dc1cc77" />
         <item identifierRef="id-7ae402faba3146d1bc7ad3b4aba5bf84" />
-        <item identifierRef="id-cd7709647c05429daf9dd2b1e8800f33" />
         <item identifierRef="id-797db6076bad4a3d9883f75f6ca316cf" />
         <item identifierRef="id-6aaf5faada1648bc9c38d65e7f6e694f" />
         <item identifierRef="id-46818c53d5d845f49fdd0344350ae073" />
         <item identifierRef="id-ae49935dc70b426fad9bcf38e50e2fc5" />
-        <item identifierRef="id-982" />
         <item identifierRef="id-905" />
-        <item identifierRef="id-c2048316554349478ef9071b784b12da" />
         <item identifierRef="id-20a7f11d238b41f19d28ac5891004fcc" />
         <item identifierRef="id-3f2f1dfddb6940e9a0d84832b104148c" />
         <item identifierRef="id-452d8cdee504447eb67e6379aea59dee" />
@@ -3800,7 +3699,6 @@ Muita lisätietoja: Laki turvallisuusselvityksistä 726/2014; Laki kansainvälis
         <item identifierRef="id-904" />
         <item identifierRef="id-983" />
         <item identifierRef="id-3d75d7c972c24f9f8b9cdebd31622827" />
-        <item identifierRef="id-846" />
         <item identifierRef="id-340a63d250614dd3bd5cd84dec0b8758" />
         <item identifierRef="id-29493ece886f4875ad66021dd11e43d9" />
         <item identifierRef="id-70b56d9f21af4c9b80d9a93ab26efa98" />
@@ -3833,21 +3731,17 @@ Muita lisätietoja: Laki turvallisuusselvityksistä 726/2014; Laki kansainvälis
         <item identifierRef="id-1db627346ae949ae99fde6d77f5fa1c2" />
         <item identifierRef="id-ac3da0ea78a64ed2bcb639754aef152c" />
         <item identifierRef="id-9e2e2703b3cb448eb403cdcc8bb7ab43" />
-        <item identifierRef="id-bae933252e3a4066990f0ebb450447ed" />
         <item identifierRef="id-3b5aa0329e864355b4e10091cf172ded" />
         <item identifierRef="id-09462186d50040a7977b9d4507f188ef" />
         <item identifierRef="id-b2ad5bca3dea4f88a1521df2587c4816" />
         <item identifierRef="id-c9d1dd3ae9f54ac190e2742d80351804" />
         <item identifierRef="id-3fedfb6835c740c880953b45f55a961a" />
         <item identifierRef="id-55bdc8cbdfc34b8a81167d3217f2e1a4" />
-        <item identifierRef="id-244a2a2719554b87af11685fae7d2092" />
         <item identifierRef="id-8e840344c6af424bbe23ff9b7141dc1d" />
         <item identifierRef="id-75cf75b3524e4fbfa6e5d11090ac3c2a" />
         <item identifierRef="id-922" />
         <item identifierRef="id-b15265d0ae41448f95eac4936ea986bc" />
-        <item identifierRef="id-972" />
         <item identifierRef="id-691defcd975e402d930284e981e4fd77" />
-        <item identifierRef="id-923" />
         <item identifierRef="id-e7a1bbc1aa1f4876be812d5d1a036611" />
         <item identifierRef="id-998" />
         <item identifierRef="id-900e14cd52ac4b62ac6383a82a005067" />
@@ -3866,9 +3760,7 @@ Muita lisätietoja: Laki turvallisuusselvityksistä 726/2014; Laki kansainvälis
         <item identifierRef="id-37fcdacd62f64d48bfcf7513408e4804" />
         <item identifierRef="id-934" />
         <item identifierRef="id-4b8c821e342d4786b4b33b1273ebf325" />
-        <item identifierRef="id-3be5556b4f02474bb8f45c3a10065229" />
         <item identifierRef="id-eb50a3525b7d4a53b12aa17b7b0cfa4a" />
-        <item identifierRef="id-232726971ea548cd995ed68b16b2f8c1" />
         <item identifierRef="id-197034da990345e49a02ed9138591f5f" />
         <item identifierRef="id-1f270166965744ef80ee2c3ce972796e" />
         <item identifierRef="id-41422d04870c4e878934c0df1f54df98" />
@@ -3891,27 +3783,22 @@ Muita lisätietoja: Laki turvallisuusselvityksistä 726/2014; Laki kansainvälis
         <item identifierRef="id-24d4a279717c4668a3e68989e7d2f107" />
         <item identifierRef="id-55efe48e88864e64b00ef102933013e0" />
         <item identifierRef="id-c14ba3a8459044e89f0864acbe5570e2" />
-        <item identifierRef="id-788ad4c767014ddcb290f433dc58f17a" />
         <item identifierRef="id-9001e11f06e7463e81c37c6edc205216" />
         <item identifierRef="id-26a4eeeace7845cfa6f7cec9969eab3c" />
         <item identifierRef="id-17bce0fc2866455c9087b8fa4d0c3d95" />
         <item identifierRef="id-ffb6607d6eee437cbddb7014c9616336" />
         <item identifierRef="id-994d0ae0a1f64746bfb5e64977026d2e" />
         <item identifierRef="id-9e49b5349cfd4e9596f4181228b87f78" />
-        <item identifierRef="id-4173bbd42e3e469fb4b33c15982d6c1f" />
-        <item identifierRef="id-1016" />
         <item identifierRef="id-e5ba1a3d201f4ce7a7cfb732da15faf0" />
         <item identifierRef="id-37a2dd9abf70430a955c5a18c55bdb6d" />
         <item identifierRef="id-c99bfc7b5d804962a3aa00cdac863378" />
         <item identifierRef="id-2417eeda0a944a888e880a29578ce7b0" />
         <item identifierRef="id-6c0044aace7747c5803d613ff2ecbe69" />
-        <item identifierRef="id-933" />
         <item identifierRef="id-cdb100422a394b68832e35108d25ccfd" />
         <item identifierRef="id-f22e8872af734244910de53fdc145a76" />
         <item identifierRef="id-9f6e23f638be4ce28a1d129fe548972f" />
         <item identifierRef="id-9426af194b0b47de98a5c9b7b670af3a" />
         <item identifierRef="id-c8470e802eae43a4af4e3995a75b8737" />
-        <item identifierRef="id-976" />
         <item identifierRef="id-9745a7f03e284c01b5f9aca706e87227" />
         <item identifierRef="id-c838263403194782b19f578438465799" />
         <item identifierRef="id-01db4da63f6e4145aa69d4ebc7a388f4" />
@@ -3921,9 +3808,7 @@ Muita lisätietoja: Laki turvallisuusselvityksistä 726/2014; Laki kansainvälis
         <item identifierRef="id-b611cd02a8b148f8abd82a5579d43bdc" />
         <item identifierRef="id-8a4a418e96a64d39b872614c8adb0a51" />
         <item identifierRef="id-e3a75ffdfa8d431f8e757d72e5f07282" />
-        <item identifierRef="id-3bb36895eeb64727a53064c0a6f3f588" />
         <item identifierRef="id-eed20670b8874c6893acde759d401c5c" />
-        <item identifierRef="id-b48d59d080144bf4a3b95ccec083e502" />
         <item identifierRef="id-3d69a27f09814051b459fd413946352f" />
         <item identifierRef="id-fce05c033f114809ab414bf7ce29465d" />
         <item identifierRef="id-52bb6914b127475e950b7386307dcd9a" />
@@ -3931,22 +3816,17 @@ Muita lisätietoja: Laki turvallisuusselvityksistä 726/2014; Laki kansainvälis
         <item identifierRef="id-975" />
         <item identifierRef="id-aeb56ca59e284e19beb56becd811c044" />
         <item identifierRef="id-b8247125f2e0470da2bf96d326c4a7f8" />
-        <item identifierRef="id-0a5539061cb0496caa83a5c4779cee1c" />
         <item identifierRef="id-e3dfdcc600f3408a90a5f88887803d04" />
-        <item identifierRef="id-911" />
         <item identifierRef="id-996" />
         <item identifierRef="id-54eff8ca7f074cc3b792d27858704f3a" />
         <item identifierRef="id-997" />
-        <item identifierRef="id-910" />
         <item identifierRef="id-fc2e402fef2a420e8fd62f0218cee8f3" />
         <item identifierRef="id-eb8078b736fa455392911dfdcca2942e" />
-        <item identifierRef="id-eded541365e345f68191406408f708b9" />
         <item identifierRef="id-9f5e63b03e3a43159df1b8804c87c771" />
         <item identifierRef="id-891" />
         <item identifierRef="id-23aa5ee22a914c25969f7fd2383a4924" />
         <item identifierRef="id-899" />
         <item identifierRef="id-d2e75b13b8294ef993e3c889e95ed344" />
-        <item identifierRef="id-66082231b984492ea108bed67a8c0f5d" />
         <item identifierRef="id-796df17f2e45492291d6ba659ea15a36" />
         <item identifierRef="id-c64eda9873ed46f492763786c38a07a2" />
         <item identifierRef="id-97ab58912c454da9acad9f33014e530d" />
@@ -3954,19 +3834,16 @@ Muita lisätietoja: Laki turvallisuusselvityksistä 726/2014; Laki kansainvälis
         <item identifierRef="id-61eda52a7e1d44af920bc739f0fe09ee" />
         <item identifierRef="id-6da6339d31af4b6ea8e09cb5c0d3283e" />
         <item identifierRef="id-8e9221e0227948a7a74f6a0c06b9988c" />
-        <item identifierRef="id-906" />
         <item identifierRef="id-2e34932c9308497fa80de55a225e20df" />
         <item identifierRef="id-886e8d95f1f84dc7be47b34138ffb48f" />
         <item identifierRef="id-3b44c25e37634de1a7c4730fb9701199" />
         <item identifierRef="id-5968271e769a42c09b0698d14e5353a3" />
         <item identifierRef="id-7dbf3de25dff43f7abcc523363cb2e84" />
         <item identifierRef="id-fe43d7ff7f3f45ccaf6ee76e5ed01e02" />
-        <item identifierRef="id-898" />
         <item identifierRef="id-5cc9bc09f521498fb538ff334d94947c" />
         <item identifierRef="id-bc2693c4429a481da7f812663921a08e" />
         <item identifierRef="id-1933f6197f1444099ec9dcc3da113622" />
         <item identifierRef="id-59b4eab85ff94125a85e40cc7fcb8bde" />
-        <item identifierRef="id-07c8012e61b4421488d72067eb9df48d" />
         <item identifierRef="id-6f38187b4c7c4dfb95160f6ee34e0cc4" />
         <item identifierRef="id-973" />
         <item identifierRef="id-921" />
@@ -3989,9 +3866,7 @@ Muita lisätietoja: Laki turvallisuusselvityksistä 726/2014; Laki kansainvälis
         <item identifierRef="id-e455987d03be40afaaa10d35ef030451" />
         <item identifierRef="id-c53508245d1a49688c9c8f22f95a5dff" />
         <item identifierRef="id-929" />
-        <item identifierRef="id-889" />
         <item identifierRef="id-5f25911f2e834fd0b8e40d6d6d23e8f3" />
-        <item identifierRef="id-8358f97f829f4a1c8496c66e0d042437" />
         <item identifierRef="id-a49273717a6947339151c0c441c8f44b" />
         <item identifierRef="id-404537d2431e47859456e338cf5c3986" />
         <item identifierRef="id-848" />
@@ -4001,43 +3876,40 @@ Muita lisätietoja: Laki turvallisuusselvityksistä 726/2014; Laki kansainvälis
         <item identifierRef="id-518f9d502b74418aad8fa142948bd320" />
         <item identifierRef="id-987" />
         <item identifierRef="id-5f9c68a62f7847bdaa79525a4a7de418" />
-        <item identifierRef="id-478c338ab8c045f49e500e609ac5ef55" />
         <item identifierRef="id-992" />
         <item identifierRef="id-979" />
-        <item identifierRef="id-f0d9dda6d9c44e40839e6052ba486918" />
         <item identifierRef="id-ab13b90f228c48febe4021bc1974dc01" />
         <item identifierRef="id-33880adcac824ceaae80e2893b3b3bd8" />
-        <item identifierRef="id-a00d1b126c42400e84afd5e2268df131" />
         <item identifierRef="id-f8bc4a3ff91a4f3f8f8cff4e4cc44c15" />
         <item identifierRef="id-02bb53294e6642ff9d3e7b3504fc9b56" />
         <item identifierRef="id-262028076d454e0bab57dfabfd549607" />
+        <item identifierRef="id-420e38c0cdb0490fab7c0fea0afbac0a" />
+        <item identifierRef="id-db917cf1167d45e68156626e1f94eabc" />
+        <item identifierRef="id-521c84f8dc5141a9af48bb9aaa1a65ae" />
+        <item identifierRef="id-2eaba521c938422285eb3d69814daa10" />
+        <item identifierRef="id-4da05d73b6074602b76718580b86f5d6" />
+        <item identifierRef="id-430b20800e634522b3c6b3fe9d96cee2" />
+        <item identifierRef="id-3bc0cf7d0799448db55f4bb115867d6a" />
+        <item identifierRef="id-a3e9e70c72d6437c9bd33ccfa80d6519" />
+        <item identifierRef="id-71dbd8652a9749aba4877248a7f9bb47" />
+        <item identifierRef="id-439ed76364134d03a2bf5b2335d9f0b6" />
+        <item identifierRef="id-19e5f3a8e68d45ef935978a3db7652ae" />
+        <item identifierRef="id-3d23b9a415e245ae8663e7bccb87e1db" />
+        <item identifierRef="id-02697cc481184212a16ef5c571e48dbd" />
+        <item identifierRef="id-af957a7072064f459eec1fc808f7a895" />
+        <item identifierRef="id-ba1b28c68bcf45eda61b81c1c32af410" />
+        <item identifierRef="id-0434df8b33254ac796f47a1fa97b9a1b" />
+        <item identifierRef="id-59df5c9290ac47a2ad9483f357af8580" />
+        <item identifierRef="id-61e76f553b3e49b8b0d379f39595f32e" />
+        <item identifierRef="id-6377e148c24f41208257782576ece31e" />
+        <item identifierRef="id-d95cd914b110420ba713673862cf6e19" />
+        <item identifierRef="id-ef115233d5004867823b318c7bd36b4b" />
+        <item identifierRef="id-56eec7bea6f94f2790305da35692985b" />
+        <item identifierRef="id-ee50568323f84df2b6b3266ce187ff48" />
+        <item identifierRef="id-229c8a4901c34a79b60fb0c19e7391e6" />
+        <item identifierRef="id-14f09760d7ca435889b14229a10c3eed" />
+        <item identifierRef="id-f9e259a47fe347d99813e08fba66ca17" />
       </item>
-      <item identifierRef="id-db917cf1167d45e68156626e1f94eabc" />
-      <item identifierRef="id-521c84f8dc5141a9af48bb9aaa1a65ae" />
-      <item identifierRef="id-59df5c9290ac47a2ad9483f357af8580" />
-      <item identifierRef="id-6377e148c24f41208257782576ece31e" />
-      <item identifierRef="id-d95cd914b110420ba713673862cf6e19" />
-      <item identifierRef="id-2eaba521c938422285eb3d69814daa10" />
-      <item identifierRef="id-61e76f553b3e49b8b0d379f39595f32e" />
-      <item identifierRef="id-4da05d73b6074602b76718580b86f5d6" />
-      <item identifierRef="id-430b20800e634522b3c6b3fe9d96cee2" />
-      <item identifierRef="id-ba1b28c68bcf45eda61b81c1c32af410" />
-      <item identifierRef="id-3bc0cf7d0799448db55f4bb115867d6a" />
-      <item identifierRef="id-ef115233d5004867823b318c7bd36b4b" />
-      <item identifierRef="id-56eec7bea6f94f2790305da35692985b" />
-      <item identifierRef="id-ee50568323f84df2b6b3266ce187ff48" />
-      <item identifierRef="id-a3e9e70c72d6437c9bd33ccfa80d6519" />
-      <item identifierRef="id-71dbd8652a9749aba4877248a7f9bb47" />
-      <item identifierRef="id-439ed76364134d03a2bf5b2335d9f0b6" />
-      <item identifierRef="id-229c8a4901c34a79b60fb0c19e7391e6" />
-      <item identifierRef="id-19e5f3a8e68d45ef935978a3db7652ae" />
-      <item identifierRef="id-3d23b9a415e245ae8663e7bccb87e1db" />
-      <item identifierRef="id-0434df8b33254ac796f47a1fa97b9a1b" />
-      <item identifierRef="id-02697cc481184212a16ef5c571e48dbd" />
-      <item identifierRef="id-af957a7072064f459eec1fc808f7a895" />
-      <item identifierRef="id-f9e259a47fe347d99813e08fba66ca17" />
-      <item identifierRef="id-14f09760d7ca435889b14229a10c3eed" />
-      <item identifierRef="id-420e38c0cdb0490fab7c0fea0afbac0a" />
     </item>
     <item>
       <label xml:lang="en">Views</label>
@@ -4052,7 +3924,6 @@ Muita lisätietoja: Laki turvallisuusselvityksistä 726/2014; Laki kansainvälis
           <label xml:lang="en">Realisointihahmotelmia</label>
           <item identifierRef="id-211" />
           <item identifierRef="id-20" />
-          <item identifierRef="id-1223" />
           <item identifierRef="id-4b07aa625a774858bf4e3fd098d360ea" />
           <item identifierRef="id-381" />
         </item>
@@ -4558,7 +4429,7 @@ Muita lisätietoja: Laki turvallisuusselvityksistä 726/2014; Laki kansainvälis
       </view>
       <view identifier="id-211" xsi:type="Diagram" viewpoint="Requirements Realization">
         <name xml:lang="en">V I-02 realisointihahmotelma</name>
-        <documentation xml:lang="en">I-03 - Tietojenkäsittely-ympäristön turvallisuus koko elinkaaren ajan - Suodatus- ja valvontajärjestelmien hallinnointi
+        <documentation xml:lang="en">I-02 - Vähimpien oikeuksien periaate - Tietoliikenne-verkon vyöhykkeistäminen ja suodatussäännöstöt ko. turvallisuusluokan sisällä
 
 Tässä realisointihahmotelmassa tietoliikenneverkko jaetaan turvallisuusluokan sisällä erillisiin vyöhykkeisiin ja segmentteihin hyödyntämällä mm. palomuuripalvelua.
 Palomuuripalvelun avulla turvallisuusluokan verkko jaetaan vyöhykkeisiin ja segmentteihin.
@@ -5310,103 +5181,6 @@ Vaatimus:
           </style>
         </connection>
         <connection identifier="id-a7a85ea8040f44a29ecbabd97b5a1894" relationshipRef="id-747150ecd9124fa982fd365c0a043ea7" xsi:type="Relationship" source="id-9affb43ae708424fa87ab34e94e66c73" target="id-23">
-          <style>
-            <lineColor r="0" g="0" b="0" />
-            <font name="Arial" size="10">
-              <color r="0" g="0" b="0" />
-            </font>
-          </style>
-        </connection>
-      </view>
-      <view identifier="id-1223" xsi:type="Diagram" viewpoint="Requirements Realization">
-        <name xml:lang="en">V I-05 realisointihahmotelma</name>
-        <node identifier="id-1236" elementRef="id-bacf4dbcef39424bb5f56ba065330dd4" xsi:type="Element" x="96" y="48" w="309" h="39">
-          <style>
-            <fillColor r="204" g="204" b="255" a="100" />
-            <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
-              <color r="0" g="0" b="0" />
-            </font>
-          </style>
-        </node>
-        <node identifier="id-1228" elementRef="id-866" xsi:type="Element" x="280" y="300" w="133" h="53">
-          <style>
-            <fillColor r="175" g="255" b="175" a="100" />
-            <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
-              <color r="0" g="0" b="0" />
-            </font>
-          </style>
-        </node>
-        <node identifier="id-1242" elementRef="id-879" xsi:type="Element" x="96" y="300" w="133" h="53">
-          <style>
-            <fillColor r="175" g="255" b="175" a="100" />
-            <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
-              <color r="0" g="0" b="0" />
-            </font>
-          </style>
-        </node>
-        <node identifier="id-4e90803d06c14acea6abc91575578369" elementRef="id-5e03ea17b9844d22a6a0a52b7614d0b5" xsi:type="Element" x="96" y="120" w="315" h="55">
-          <style>
-            <fillColor r="204" g="204" b="255" a="100" />
-            <lineColor r="92" g="92" b="92" a="100" />
-            <font name="Arial" size="10">
-              <color r="0" g="0" b="0" />
-            </font>
-          </style>
-        </node>
-        <node identifier="id-2e05de553ecd4b488853f9fe6150dadf" elementRef="id-859" xsi:type="Element" x="96" y="372" w="133" h="55">
-          <style>
-            <fillColor r="175" g="255" b="175" a="100" />
-            <lineColor r="92" g="92" b="92" a="100" />
-            <font name="Arial" size="10">
-              <color r="0" g="0" b="0" />
-            </font>
-          </style>
-        </node>
-        <node identifier="id-d71be52e805641fd8f11df7ab4294c8f" elementRef="id-860" xsi:type="Element" x="96" y="216" w="133" h="55">
-          <style>
-            <fillColor r="175" g="255" b="175" a="100" />
-            <lineColor r="92" g="92" b="92" a="100" />
-            <font name="Arial" size="10">
-              <color r="0" g="0" b="0" />
-            </font>
-          </style>
-        </node>
-        <connection identifier="id-a6d7c4d483984eac9be73a140a650791" relationshipRef="id-e11329e33f7642e4a92b854cba1a961a" xsi:type="Relationship" source="id-1228" target="id-4e90803d06c14acea6abc91575578369">
-          <style>
-            <lineColor r="0" g="0" b="0" />
-            <font name="Arial" size="10">
-              <color r="0" g="0" b="0" />
-            </font>
-          </style>
-        </connection>
-        <connection identifier="id-337bb4e8887e465c865269f34336a1af" relationshipRef="id-f0d9dda6d9c44e40839e6052ba486918" xsi:type="Relationship" source="id-1242" target="id-1228">
-          <style>
-            <lineColor r="0" g="0" b="0" />
-            <font name="Arial" size="10">
-              <color r="0" g="0" b="0" />
-            </font>
-          </style>
-        </connection>
-        <connection identifier="id-0b1c6d7f0b364eacbdef5b0d602987f2" relationshipRef="id-405ec35c2e9e4e048e6a770b33c66d54" xsi:type="Relationship" source="id-4e90803d06c14acea6abc91575578369" target="id-1236">
-          <style>
-            <lineColor r="0" g="0" b="0" />
-            <font name="Arial" size="10">
-              <color r="0" g="0" b="0" />
-            </font>
-          </style>
-        </connection>
-        <connection identifier="id-0baaacdb1e674cb4b397f9e00e035032" relationshipRef="id-897" xsi:type="Relationship" source="id-2e05de553ecd4b488853f9fe6150dadf" target="id-1242">
-          <style>
-            <lineColor r="0" g="0" b="0" />
-            <font name="Arial" size="10">
-              <color r="0" g="0" b="0" />
-            </font>
-          </style>
-        </connection>
-        <connection identifier="id-7cc8043641a74098a07ac7763af2425d" relationshipRef="id-922" xsi:type="Relationship" source="id-d71be52e805641fd8f11df7ab4294c8f" target="id-1242">
           <style>
             <lineColor r="0" g="0" b="0" />
             <font name="Arial" size="10">
@@ -28844,17 +28618,6 @@ Teknistä tietoturvallisuutta koskevassa (I) osa-alueessa kuvataan puolestaan te
             </font>
           </style>
           <viewRef ref="id-20" />
-        </node>
-        <node identifier="id-0ead0bcb35df46068ae8609ecc8f5e12" xsi:type="Label" x="643" y="276" w="120" h="55">
-          <label xml:lang="en">V I-05 realisointihahmotelma</label>
-          <style>
-            <fillColor r="220" g="235" b="235" a="100" />
-            <lineColor r="92" g="92" b="92" a="100" />
-            <font name="Arial" size="10">
-              <color r="0" g="0" b="0" />
-            </font>
-          </style>
-          <viewRef ref="id-1223" />
         </node>
       </view>
     </diagrams>
