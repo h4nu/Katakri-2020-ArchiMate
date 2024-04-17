@@ -9934,16 +9934,16 @@ Teknistä tietoturvallisuutta koskevassa (I) osa-alueessa kuvataan puolestaan te
           <bounds x="48" y="48" width="715" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramModelReference" id="id-f3cfe0c5752944b7a7f49c6bcc162290" model="id-4b07aa625a774858bf4e3fd098d360ea">
-          <bounds x="48" y="276" width="120" height="55"/>
+          <bounds x="48" y="264" width="120" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramModelReference" id="id-215acaaf5f674528980f69b03c6fac56" model="id-211">
-          <bounds x="192" y="276" width="120" height="55"/>
+          <bounds x="192" y="264" width="120" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramModelReference" id="id-676ee5bed49f4ded97e99d2a09e0cf3a" model="id-381">
-          <bounds x="342" y="276" width="120" height="55"/>
+          <bounds x="342" y="264" width="120" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramModelReference" id="id-3d2f9a84c9a04a2494f7c5909d81289b" model="id-20">
-          <bounds x="492" y="276" width="120" height="55"/>
+          <bounds x="492" y="264" width="120" height="55"/>
         </child>
         <documentation>Katakri on jaettu kolmeen osa-alueeseen. 
 
