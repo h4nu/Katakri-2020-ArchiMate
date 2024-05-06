@@ -9,7 +9,7 @@ Elementtien sisältö perustuu Kansallisen turvallisuusviranomaisen julkaisemaan
       <documentation xml:lang="en">Asset at risk</documentation>
     </element>
     <element identifier="id-ebd120bc44854c13b66244a47232e2a3" xsi:type="BusinessService">
-      <name xml:lang="en">Käyttöönotetut valvontatoimenpiteet</name>
+      <name xml:lang="en">Käyttöönotetut toimenpiteet</name>
       <documentation xml:lang="en">Implemented control measure</documentation>
     </element>
     <element identifier="id-219574210c684dfd913599caf1e41aea" xsi:type="BusinessEvent">
@@ -229,7 +229,7 @@ Katakrissa käytettävällä termillä päätelaite tarkoitetaan tietojärjestel
       <documentation xml:lang="en">Fyysisten turvatoimien valinnan on perustuttava riskien arviointiin. Organisaation on sovellettava riskinhallintaprosessia turvallisuusluokiteltujen tietojen suojaamiseksi tiloissaan, jotta varmistetaan, että fyysiset turvatoimet (F-03 - F-07) vastaavat arvioituja riskejä, jäännösriskit voidaan hyväksyä ja valitut turvatoimet täyttävät tavoitteet (F-01). Riskien arvioinnissa tulee huomioida sekä auditoitavan että auditoivan tahon näkemys riskeistä ja valittujen turvatoimien riittävyydestä. Sekä auditoitavan että auditoivan tahon on hyväksyttävä fyysisiin turvatoimiin liittyvä jäännösriski. Organisaation tulee pystyä osoittamaan perustelut valituille turvatoimille.</documentation>
     </element>
     <element identifier="id-d05651cdb5a74dfca2f2622b8247b960" xsi:type="Goal">
-      <name xml:lang="en">Osa-alue T - Turvallisuusjohtaminen</name>
+      <name xml:lang="en">Katakri 2020 Osa-alue T - Turvallisuusjohtaminen</name>
       <documentation xml:lang="en">Turvallisuusjohtamisen osa-alueessa käsitellään niitä menetelmiä, joilla turvallisuus ja sen hallinta jalkautetaan osaksi koko organisaation toimintaa. Turvallisuusjohtamisen osa-alue kattaa hallinnollisen tietoturvallisuuden ja henkilöstöturvallisuuden. Turvallisuusjohtamisen vaatimuksilla pyritään siihen, että organisaatiolla on toimiva tietoturvallisuuden hallintajärjestelmä sekä riittävät menettelyt sen varmistamiseksi, että viranomaisen turvallisuusluokiteltuja tietoja käsittelevä henkilöstö toimii asianmukaisesti.
 
 Turvallisuusjohtamiseen liittyviä prosesseja tulee käsitellä kokonaisuuksina. Tietoturvallisuuden hallintamenettelyt tulee suhteuttaa riskienarvioinnin perusteella suojattavaan tietoon ja kohdeorganisaation toimintaan.
@@ -4728,227 +4728,227 @@ Vaatimus:
 2. Hallintaliikenteen sisältäessä turvallisuusluokiteltua tietoa ja kulkiessa matalamman turvallisuusluokan ympäristön kautta, turvallisuusluokitellut tiedot on salattu toimivaltaisen viranomaisen hyväksymällä salaustuotteella.
 3. Hallintaliikenteen kulkiessa ko. turvallisuusluokan sisällä, alemman tason salausta tai salaamatonta siirtoa voidaan käyttää riskinhallintaprosessin tulosten perusteella toimivaltaisen viranomaisen erillishyväksyntään perustuen.
 4. Hallintayhteydet on rajattu vähimpien oikeuksien periaatteen mukaisesti.</documentation>
-        <node identifier="id-23" elementRef="id-aca3e75f89054a6681cbd7caed3afbf5" xsi:type="Element" x="168" y="12" w="1212" h="60">
+        <node identifier="id-23" elementRef="id-aca3e75f89054a6681cbd7caed3afbf5" xsi:type="Element" x="72" y="12" w="1454" h="60">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="14">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-36" elementRef="id-884" xsi:type="Element" x="498" y="362" w="133" h="53">
+        <node identifier="id-36" elementRef="id-884" xsi:type="Element" x="540" y="362" w="163" h="53">
           <style>
             <fillColor r="175" g="255" b="175" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-41" elementRef="id-864" xsi:type="Element" x="358" y="275" w="133" h="53">
+        <node identifier="id-41" elementRef="id-864" xsi:type="Element" x="358" y="275" w="163" h="53">
           <style>
             <fillColor r="175" g="255" b="175" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-45" elementRef="id-931" xsi:type="Element" x="358" y="542" w="133" h="53">
+        <node identifier="id-45" elementRef="id-931" xsi:type="Element" x="358" y="542" w="163" h="53">
           <style>
             <fillColor r="255" g="255" b="175" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-49" elementRef="id-917" xsi:type="Element" x="498" y="542" w="133" h="53">
+        <node identifier="id-49" elementRef="id-917" xsi:type="Element" x="540" y="542" w="163" h="53">
           <style>
             <fillColor r="255" g="255" b="175" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-53" elementRef="id-886" xsi:type="Element" x="358" y="362" w="133" h="53">
+        <node identifier="id-53" elementRef="id-886" xsi:type="Element" x="358" y="362" w="163" h="53">
           <style>
             <fillColor r="175" g="255" b="175" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-58" elementRef="id-873" xsi:type="Element" x="749" y="628" w="133" h="53">
+        <node identifier="id-58" elementRef="id-873" xsi:type="Element" x="783" y="628" w="163" h="53">
           <style>
             <fillColor r="175" g="255" b="175" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-62" elementRef="id-869" xsi:type="Element" x="498" y="275" w="133" h="53">
+        <node identifier="id-62" elementRef="id-869" xsi:type="Element" x="540" y="275" w="163" h="53">
           <style>
             <fillColor r="175" g="255" b="175" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-71" elementRef="id-885" xsi:type="Element" x="358" y="462" w="133" h="53">
+        <node identifier="id-71" elementRef="id-885" xsi:type="Element" x="358" y="462" w="163" h="53">
           <style>
             <fillColor r="175" g="255" b="175" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-76" elementRef="id-883" xsi:type="Element" x="498" y="462" w="133" h="53">
+        <node identifier="id-76" elementRef="id-883" xsi:type="Element" x="540" y="462" w="163" h="53">
           <style>
             <fillColor r="175" g="255" b="175" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-85" elementRef="id-893" xsi:type="Element" x="360" y="116" w="273" h="53">
+        <node identifier="id-85" elementRef="id-893" xsi:type="Element" x="360" y="116" w="343" h="53">
           <style>
             <fillColor r="255" g="255" b="175" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-89" elementRef="id-871" xsi:type="Element" x="360" y="192" w="273" h="53">
+        <node identifier="id-89" elementRef="id-871" xsi:type="Element" x="360" y="192" w="343" h="53">
           <style>
             <fillColor r="175" g="255" b="175" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-113" elementRef="id-881" xsi:type="Element" x="498" y="628" w="133" h="53">
+        <node identifier="id-113" elementRef="id-881" xsi:type="Element" x="540" y="628" w="163" h="53">
           <style>
             <fillColor r="175" g="255" b="175" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-118" elementRef="id-882" xsi:type="Element" x="358" y="628" w="133" h="53">
+        <node identifier="id-118" elementRef="id-882" xsi:type="Element" x="358" y="628" w="163" h="53">
           <style>
             <fillColor r="175" g="255" b="175" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-127" elementRef="id-879" xsi:type="Element" x="498" y="795" w="133" h="53">
+        <node identifier="id-127" elementRef="id-879" xsi:type="Element" x="540" y="795" w="163" h="53">
           <style>
             <fillColor r="175" g="255" b="175" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-132" elementRef="id-860" xsi:type="Element" x="498" y="882" w="133" h="53">
+        <node identifier="id-132" elementRef="id-860" xsi:type="Element" x="540" y="882" w="163" h="53">
           <style>
             <fillColor r="175" g="255" b="175" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-136" elementRef="id-859" xsi:type="Element" x="498" y="708" w="133" h="53">
+        <node identifier="id-136" elementRef="id-859" xsi:type="Element" x="540" y="708" w="163" h="53">
           <style>
             <fillColor r="175" g="255" b="175" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-142" elementRef="id-875" xsi:type="Element" x="780" y="795" w="133" h="53">
+        <node identifier="id-142" elementRef="id-875" xsi:type="Element" x="783" y="792" w="163" h="53">
           <style>
             <fillColor r="175" g="255" b="175" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-160" elementRef="id-926" xsi:type="Element" x="936" y="795" w="133" h="53">
+        <node identifier="id-160" elementRef="id-926" xsi:type="Element" x="1059" y="795" w="163" h="53">
           <style>
             <fillColor r="255" g="255" b="175" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-166" elementRef="id-900" xsi:type="Element" x="1092" y="795" w="133" h="53">
+        <node identifier="id-166" elementRef="id-900" xsi:type="Element" x="1324" y="792" w="163" h="53">
           <style>
             <fillColor r="255" g="255" b="175" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-171" elementRef="id-851" xsi:type="Element" x="1260" y="795" w="133" h="53">
+        <node identifier="id-171" elementRef="id-851" xsi:type="Element" x="1324" y="876" w="163" h="53">
           <style>
             <fillColor r="175" g="255" b="175" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-c86e831796fb48879553a2ad984b372b" elementRef="id-3f62417b741646a488166cf2974f72a1" xsi:type="Element" x="144" y="489" w="192" h="104">
-          <style>
-            <fillColor r="204" g="204" b="255" a="100" />
-            <lineColor r="92" g="92" b="92" a="100" />
-            <font name="Arial" size="10">
-              <color r="0" g="0" b="0" />
-            </font>
-          </style>
-        </node>
-        <node identifier="id-4f942cfbb74e42b8ad661c14d68e240d" elementRef="id-49a70413a3874b689e2a918ed02bb634" xsi:type="Element" x="648" y="490" w="192" h="104">
+        <node identifier="id-c86e831796fb48879553a2ad984b372b" elementRef="id-3f62417b741646a488166cf2974f72a1" xsi:type="Element" x="72" y="456" w="241" h="139">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="92" g="92" b="92" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="14">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-e083279c8768415e9f84075ee15199ea" elementRef="id-07417dcd1c464612ac389c14bf280aff" xsi:type="Element" x="1063" y="490" w="192" h="104">
+        <node identifier="id-4f942cfbb74e42b8ad661c14d68e240d" elementRef="id-49a70413a3874b689e2a918ed02bb634" xsi:type="Element" x="744" y="457" w="241" h="139">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="92" g="92" b="92" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="14">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-9affb43ae708424fa87ab34e94e66c73" elementRef="id-a8d3994a33044d3f949a597df4160b0c" xsi:type="Element" x="852" y="490" w="192" h="104">
+        <node identifier="id-e083279c8768415e9f84075ee15199ea" elementRef="id-07417dcd1c464612ac389c14bf280aff" xsi:type="Element" x="1285" y="457" w="241" h="139">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="92" g="92" b="92" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="14">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-9affb43ae708424fa87ab34e94e66c73" elementRef="id-a8d3994a33044d3f949a597df4160b0c" xsi:type="Element" x="1020" y="457" w="241" h="139">
+          <style>
+            <fillColor r="204" g="204" b="255" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Arial" size="14">
               <color r="0" g="0" b="0" />
             </font>
           </style>
@@ -5024,6 +5024,7 @@ Vaatimus:
               <color r="0" g="0" b="0" />
             </font>
           </style>
+          <bendpoint x="1140" y="648" />
         </connection>
         <connection identifier="id-203" relationshipRef="id-980" xsi:type="Relationship" source="id-85" target="id-23">
           <style>
@@ -5080,8 +5081,8 @@ Vaatimus:
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="528" y="696" />
-          <bendpoint x="204" y="696" />
+          <bendpoint x="564" y="696" />
+          <bendpoint x="192" y="696" />
         </connection>
         <connection identifier="id-125" relationshipRef="id-930" xsi:type="Relationship" source="id-118" target="id-45">
           <style>
@@ -5098,7 +5099,7 @@ Vaatimus:
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="276" y="648" />
+          <bendpoint x="228" y="648" />
         </connection>
         <connection identifier="id-148" relationshipRef="id-919" xsi:type="Relationship" source="id-127" target="id-142">
           <style>
@@ -5201,236 +5202,236 @@ Vaatimus 3. "Hallitun fyysisen turva-alueen ulkopuolelle menevä liikenne salata
 
 Turvallisuusluokat III-II: Kohtien 1 ja 3 lisäksi:
 Vaatimus 4. "Tietojenkäsittely-ympäristön kytkeminen muiden turvallisuusluokkien ympäristöihin edellyttää toimivaltaisen viranomaisen ko. turvallisuusluokalle hyväksymän yhdyskäytäväratkaisun käyttöä." realisoidaan käyttämällä yksisuuntaisen liikenteen sallivaa datadiodia esimerkiksi päivitettäessä turvallisuusluokan III tietoja erilllisessä tietojenkäsittely-ympäristössä olevaan konfiguraationhallintapalveluun.</documentation>
-        <node identifier="id-d4afd6e2781e4c728501644fd85ed5e2" elementRef="id-864" xsi:type="Element" x="253" y="688" w="133" h="53">
+        <node identifier="id-d4afd6e2781e4c728501644fd85ed5e2" elementRef="id-864" xsi:type="Element" x="240" y="688" w="160" h="53">
           <style>
             <fillColor r="175" g="255" b="175" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-bbec2593997d445d9a697ba3dc9f0b7b" elementRef="id-869" xsi:type="Element" x="393" y="688" w="133" h="53">
+        <node identifier="id-bbec2593997d445d9a697ba3dc9f0b7b" elementRef="id-869" xsi:type="Element" x="417" y="688" w="160" h="53">
           <style>
             <fillColor r="175" g="255" b="175" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-e7dad614571643c09d24e55fc15998f1" elementRef="id-931" xsi:type="Element" x="253" y="955" w="133" h="53">
+        <node identifier="id-e7dad614571643c09d24e55fc15998f1" elementRef="id-931" xsi:type="Element" x="240" y="955" w="160" h="53">
           <style>
             <fillColor r="255" g="255" b="175" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-2526e291044b4bdfb847fa9fb5a0fe3f" elementRef="id-917" xsi:type="Element" x="393" y="955" w="133" h="53">
+        <node identifier="id-2526e291044b4bdfb847fa9fb5a0fe3f" elementRef="id-917" xsi:type="Element" x="417" y="955" w="160" h="53">
           <style>
             <fillColor r="255" g="255" b="175" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-8e1a9d8676d24598aa00defcf7a54377" elementRef="id-886" xsi:type="Element" x="253" y="775" w="133" h="53">
+        <node identifier="id-8e1a9d8676d24598aa00defcf7a54377" elementRef="id-886" xsi:type="Element" x="240" y="775" w="160" h="53">
           <style>
             <fillColor r="175" g="255" b="175" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-c8a3878109864913be3870ea02cdfbc8" elementRef="id-884" xsi:type="Element" x="393" y="775" w="133" h="53">
+        <node identifier="id-c8a3878109864913be3870ea02cdfbc8" elementRef="id-884" xsi:type="Element" x="417" y="775" w="160" h="53">
           <style>
             <fillColor r="175" g="255" b="175" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-7d81090f51244d7aae39d279398a2385" elementRef="id-841" xsi:type="Element" x="594" y="1044" w="133" h="53">
+        <node identifier="id-7d81090f51244d7aae39d279398a2385" elementRef="id-841" xsi:type="Element" x="618" y="1044" w="160" h="53">
           <style>
             <fillColor r="175" g="255" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-f229019943554edeb2d0203f5232709d" elementRef="id-4661dbc4bf794041acbdc131bdb1dc71" xsi:type="Element" x="624" y="132" w="193" h="55">
+        <node identifier="id-f229019943554edeb2d0203f5232709d" elementRef="id-4661dbc4bf794041acbdc131bdb1dc71" xsi:type="Element" x="636" y="72" w="289" h="103">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="14">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-b5e4ecbc3cb547769d26242ff3a30b1a" elementRef="id-883" xsi:type="Element" x="393" y="875" w="133" h="53">
+        <node identifier="id-b5e4ecbc3cb547769d26242ff3a30b1a" elementRef="id-883" xsi:type="Element" x="417" y="875" w="160" h="53">
           <style>
             <fillColor r="175" g="255" b="175" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-f39450d1ea5846deb1242616a4b5b3b2" elementRef="id-885" xsi:type="Element" x="253" y="875" w="133" h="53">
+        <node identifier="id-f39450d1ea5846deb1242616a4b5b3b2" elementRef="id-885" xsi:type="Element" x="240" y="875" w="160" h="53">
           <style>
             <fillColor r="175" g="255" b="175" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-ff32301995d8409e8be838887b358fe5" elementRef="id-871" xsi:type="Element" x="327" y="581" w="133" h="53">
+        <node identifier="id-ff32301995d8409e8be838887b358fe5" elementRef="id-871" xsi:type="Element" x="351" y="581" w="160" h="53">
           <style>
             <fillColor r="175" g="255" b="175" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-f45c8de6b032479985b7758921766040" elementRef="id-893" xsi:type="Element" x="327" y="496" w="133" h="53">
+        <node identifier="id-f45c8de6b032479985b7758921766040" elementRef="id-893" xsi:type="Element" x="351" y="496" w="160" h="53">
           <style>
             <fillColor r="255" g="255" b="175" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-9f888ac7ae424a97b0bcc7ce863319b8" elementRef="id-875" xsi:type="Element" x="792" y="775" w="133" h="53">
+        <node identifier="id-9f888ac7ae424a97b0bcc7ce863319b8" elementRef="id-875" xsi:type="Element" x="816" y="775" w="160" h="53">
           <style>
             <fillColor r="175" g="255" b="175" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-46d65ac306df45a986661f4531132167" elementRef="id-879" xsi:type="Element" x="594" y="775" w="133" h="53">
+        <node identifier="id-46d65ac306df45a986661f4531132167" elementRef="id-879" xsi:type="Element" x="618" y="775" w="160" h="53">
           <style>
             <fillColor r="175" g="255" b="175" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-642b9e13b332402281f8d568d11846b5" elementRef="id-859" xsi:type="Element" x="594" y="875" w="133" h="53">
+        <node identifier="id-642b9e13b332402281f8d568d11846b5" elementRef="id-859" xsi:type="Element" x="618" y="875" w="160" h="53">
           <style>
             <fillColor r="175" g="255" b="175" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-bef07f9998804f458785e012df547609" elementRef="id-873" xsi:type="Element" x="792" y="676" w="133" h="53">
+        <node identifier="id-bef07f9998804f458785e012df547609" elementRef="id-873" xsi:type="Element" x="816" y="688" w="160" h="53">
           <style>
             <fillColor r="175" g="255" b="175" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-aa61c203caad4ecdbe6b7b6b29d9091e" elementRef="id-860" xsi:type="Element" x="594" y="688" w="133" h="53">
+        <node identifier="id-aa61c203caad4ecdbe6b7b6b29d9091e" elementRef="id-860" xsi:type="Element" x="618" y="688" w="160" h="53">
           <style>
             <fillColor r="175" g="255" b="175" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-02689aafd75944f4ac7c0355d81ba1fa" elementRef="id-887" xsi:type="Element" x="594" y="952" w="133" h="53">
+        <node identifier="id-02689aafd75944f4ac7c0355d81ba1fa" elementRef="id-887" xsi:type="Element" x="618" y="952" w="160" h="53">
           <style>
             <fillColor r="175" g="255" b="175" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-bab48bf5fdb049fcb8dd15e2f6ffe90c" elementRef="id-838" xsi:type="Element" x="785" y="1044" w="133" h="53">
+        <node identifier="id-bab48bf5fdb049fcb8dd15e2f6ffe90c" elementRef="id-838" xsi:type="Element" x="809" y="1044" w="160" h="53">
           <style>
             <fillColor r="175" g="255" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-c69de976d21b40ce8aa918917d55a05f" elementRef="id-fdc23231507c48489de82311eb59ca8d" xsi:type="Element" x="293" y="264" w="224" h="55">
+        <node identifier="id-c69de976d21b40ce8aa918917d55a05f" elementRef="id-fdc23231507c48489de82311eb59ca8d" xsi:type="Element" x="317" y="204" w="289" h="103">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="92" g="92" b="92" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="14">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-53291d4a1cd24cac8b7df64cb90ca464" elementRef="id-08061a8d26d84b9c84c7e0b1259bd0b6" xsi:type="Element" x="48" y="360" w="224" h="55">
+        <node identifier="id-53291d4a1cd24cac8b7df64cb90ca464" elementRef="id-08061a8d26d84b9c84c7e0b1259bd0b6" xsi:type="Element" x="0" y="336" w="289" h="103">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="92" g="92" b="92" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="14">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-f65df2b35da04d7ca6049a51260182ae" elementRef="id-278d6daa4127415cb828e2f9b64d14e3" xsi:type="Element" x="293" y="360" w="224" h="55">
+        <node identifier="id-f65df2b35da04d7ca6049a51260182ae" elementRef="id-278d6daa4127415cb828e2f9b64d14e3" xsi:type="Element" x="317" y="336" w="289" h="103">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="92" g="92" b="92" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="14">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-ff583bbcc78a4f8bb2f575ea079bb1fc" elementRef="id-0d100eb5517f49b38cc02c4599b3ba85" xsi:type="Element" x="588" y="360" w="265" h="55">
+        <node identifier="id-ff583bbcc78a4f8bb2f575ea079bb1fc" elementRef="id-0d100eb5517f49b38cc02c4599b3ba85" xsi:type="Element" x="636" y="336" w="289" h="103">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="92" g="92" b="92" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="14">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-d4e43668fce4414096c42972a033670c" elementRef="id-22cdb8e822ba4146bc8aaa8fc60f81ac" xsi:type="Element" x="948" y="264" w="224" h="55">
+        <node identifier="id-d4e43668fce4414096c42972a033670c" elementRef="id-22cdb8e822ba4146bc8aaa8fc60f81ac" xsi:type="Element" x="960" y="204" w="289" h="103">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="92" g="92" b="92" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="14">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-430956fe07c84b0fac9291db21ae0205" elementRef="id-003d6c4d8ef24580967ed7e4490e1130" xsi:type="Element" x="928" y="360" w="289" h="55">
+        <node identifier="id-430956fe07c84b0fac9291db21ae0205" elementRef="id-003d6c4d8ef24580967ed7e4490e1130" xsi:type="Element" x="960" y="336" w="289" h="103">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="92" g="92" b="92" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="14">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-eda2f2d04b9746d98a90a388a0ca4be4" elementRef="id-ee881fb280ce4c02beaac943dc88fb66" xsi:type="Element" x="594" y="1140" w="133" h="55">
+        <node identifier="id-eda2f2d04b9746d98a90a388a0ca4be4" elementRef="id-ee881fb280ce4c02beaac943dc88fb66" xsi:type="Element" x="618" y="1140" w="160" h="55">
           <style>
             <fillColor r="255" g="255" b="181" a="100" />
             <lineColor r="92" g="92" b="92" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
@@ -5458,7 +5459,7 @@ Vaatimus 4. "Tietojenkäsittely-ympäristön kytkeminen muiden turvallisuusluokk
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="456" y="1068" />
+          <bendpoint x="494" y="1068" />
         </connection>
         <connection identifier="id-a1d1676335f94a428717aefbabd55880" relationshipRef="id-904" xsi:type="Relationship" source="id-8e1a9d8676d24598aa00defcf7a54377" target="id-d4afd6e2781e4c728501644fd85ed5e2">
           <style>
@@ -5515,7 +5516,7 @@ Vaatimus 4. "Tietojenkäsittely-ympäristön kytkeminen muiden turvallisuusluokk
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="408" y="156" />
+          <bendpoint x="466" y="132" />
         </connection>
         <connection identifier="id-258ce793ed67435f993a8e029d8a6bd8" relationshipRef="id-52c705eeeba947cc89691c2f839a429d" xsi:type="Relationship" source="id-f229019943554edeb2d0203f5232709d" target="id-d4e43668fce4414096c42972a033670c">
           <style>
@@ -5524,7 +5525,7 @@ Vaatimus 4. "Tietojenkäsittely-ympäristön kytkeminen muiden turvallisuusluokk
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="1056" y="156" />
+          <bendpoint x="1108" y="132" />
         </connection>
         <connection identifier="id-b70c1d5a8dba44d59224978f5f4a1008" relationshipRef="id-928" xsi:type="Relationship" source="id-ff32301995d8409e8be838887b358fe5" target="id-bbec2593997d445d9a697ba3dc9f0b7b">
           <style>
@@ -5565,7 +5566,7 @@ Vaatimus 4. "Tietojenkäsittely-ympäristön kytkeminen muiden turvallisuusluokk
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="138" y="516" />
+          <bendpoint x="149" y="516" />
         </connection>
         <connection identifier="id-41c673fcdaa84a969d4a08ef1a9908b7" relationshipRef="id-919" xsi:type="Relationship" source="id-46d65ac306df45a986661f4531132167" target="id-9f888ac7ae424a97b0bcc7ce863319b8">
           <style>
@@ -5630,7 +5631,7 @@ Vaatimus 4. "Tietojenkäsittely-ympäristön kytkeminen muiden turvallisuusluokk
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="1056" y="1068" />
+          <bendpoint x="1091" y="1068" />
         </connection>
         <connection identifier="id-053929202ebf4222990da6d8f4ce3ea3" relationshipRef="id-7ae402faba3146d1bc7ad3b4aba5bf84" xsi:type="Relationship" source="id-53291d4a1cd24cac8b7df64cb90ca464" target="id-c69de976d21b40ce8aa918917d55a05f">
           <style>
@@ -5639,7 +5640,7 @@ Vaatimus 4. "Tietojenkäsittely-ympäristön kytkeminen muiden turvallisuusluokk
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="134" y="288" />
+          <bendpoint x="154" y="270" />
         </connection>
         <connection identifier="id-c79447b1b7cb4cd6b23d27c57a2831c2" relationshipRef="id-b30241af64244bd297e82aeed1f0b3b7" xsi:type="Relationship" source="id-f65df2b35da04d7ca6049a51260182ae" target="id-c69de976d21b40ce8aa918917d55a05f">
           <style>
@@ -5656,7 +5657,7 @@ Vaatimus 4. "Tietojenkäsittely-ympäristön kytkeminen muiden turvallisuusluokk
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="702" y="288" />
+          <bendpoint x="760" y="270" />
         </connection>
         <connection identifier="id-2431895e1f52417085594346013e7a0f" relationshipRef="id-0470780145cb4fc998c57d7625d0273f" xsi:type="Relationship" source="id-430956fe07c84b0fac9291db21ae0205" target="id-d4e43668fce4414096c42972a033670c">
           <style>
@@ -7347,7 +7348,7 @@ c) Liikennettä suodattavien tai valvovien järjestelmien asetukset ja haluttu t
       </view>
       <view identifier="id-504" xsi:type="Diagram" viewpoint="Motivation">
         <name xml:lang="en">T-01 - Johdon tuki, ohjaus ja vastuu - Turvallisuusperiaatteet</name>
-        <node identifier="id-507" elementRef="id-d0b69f6ba5964965b594fb62cf3696ba" xsi:type="Element" x="24" y="108" w="433" h="53">
+        <node identifier="id-507" elementRef="id-d0b69f6ba5964965b594fb62cf3696ba" xsi:type="Element" x="408" y="132" w="433" h="53">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
@@ -7356,7 +7357,7 @@ c) Liikennettä suodattavien tai valvovien järjestelmien asetukset ja haluttu t
             </font>
           </style>
         </node>
-        <node identifier="id-512" elementRef="id-d05651cdb5a74dfca2f2622b8247b960" xsi:type="Element" x="24" y="24" w="433" h="53">
+        <node identifier="id-512" elementRef="id-d05651cdb5a74dfca2f2622b8247b960" xsi:type="Element" x="408" y="48" w="433" h="53">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
@@ -7365,7 +7366,7 @@ c) Liikennettä suodattavien tai valvovien järjestelmien asetukset ja haluttu t
             </font>
           </style>
         </node>
-        <node identifier="id-549" elementRef="id-961236e9f6f6488480e71152210d81c5" xsi:type="Element" x="24" y="192" w="433" h="53">
+        <node identifier="id-549" elementRef="id-961236e9f6f6488480e71152210d81c5" xsi:type="Element" x="408" y="216" w="433" h="53">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
@@ -7374,7 +7375,7 @@ c) Liikennettä suodattavien tai valvovien järjestelmien asetukset ja haluttu t
             </font>
           </style>
         </node>
-        <node identifier="id-3fdc9c676245447da8559431f6d7e9e6" elementRef="id-cd987590cf2a43a3845f5f17ce8251df" xsi:type="Element" x="24" y="276" w="433" h="97">
+        <node identifier="id-3fdc9c676245447da8559431f6d7e9e6" elementRef="id-cd987590cf2a43a3845f5f17ce8251df" xsi:type="Element" x="408" y="300" w="433" h="97">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="92" g="92" b="92" a="100" />
@@ -9164,7 +9165,7 @@ Arvioitaessa viranomaisen turvallisuusluokitellun tiedon käsittely-ympäristö�
 
 3 Lainsäädäntöjohdannaisilla riskeillä viitataan eri maiden lainsäädännössä oleviin mahdollisuuksiin velvoittaa palveluntarjoajat toimimaan yhteistyössä kyseisen maan viranomaisten kanssa, ja tarjoamaan esimerkiksi suora tai epäsuora pääsy palvelun asiakkaiden turvallisuusluokiteltuihin tietoihin. Lainsäädäntöjohdannaiset riskit voivat ulottua sekä turvallisuusluokitellun tiedon fyysiseen sijaintiin että muun muassa toisesta maasta käsin hallintayhteyksien kautta toteutettavaan tietojen luovutukseen. Lainsäädäntöjohdannainen tietojen luovuttaminen ja tutkimusoikeus on useissa maissa rajattu koskevaksi poliisia sekä tiedusteluviranomaisia.
 4 Erityistapauksiin sisältyvät muun muassa sellaiset kansainväliseen viranomaisyhteistyöhön liittyvät järjestelmähankkeet, joissa järjestelmäkokonaisuuksien osien tarkastamisen ja hyväksyntien toimivallasta ja vastuusta on kyseiseen viranomaisyhteistyöhön osallistuvien jäsenmaiden turvallisuusviranomaisten kesken erikseen sovittu. Kansainväliseen yhteistyöhön liittyy muitakin erityistapauksia, joissa sähköisen käsittely-ympäristön suojaukset voivat osin nojautua esimerkiksi EU:n toimielinten järjestelyihin.</documentation>
-        <node identifier="id-c369f6c5fab540f792deda5f18693866" elementRef="id-87c049c9b84d435e8fbad239ecb679ac" xsi:type="Element" x="624" y="60" w="224" h="60">
+        <node identifier="id-c369f6c5fab540f792deda5f18693866" elementRef="id-87c049c9b84d435e8fbad239ecb679ac" xsi:type="Element" x="552" y="60" w="349" h="60">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
@@ -9173,7 +9174,7 @@ Arvioitaessa viranomaisen turvallisuusluokitellun tiedon käsittely-ympäristö�
             </font>
           </style>
         </node>
-        <node identifier="id-6693bec2d2f4431386a783fed3b302f5" elementRef="id-893e346e0b8b4530a1e8f2ff5639b6e5" xsi:type="Element" x="624" y="156" w="224" h="60">
+        <node identifier="id-6693bec2d2f4431386a783fed3b302f5" elementRef="id-893e346e0b8b4530a1e8f2ff5639b6e5" xsi:type="Element" x="552" y="156" w="349" h="60">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
@@ -9182,7 +9183,7 @@ Arvioitaessa viranomaisen turvallisuusluokitellun tiedon käsittely-ympäristö�
             </font>
           </style>
         </node>
-        <node identifier="id-9039910146294ad99de340b4b4a15bee" elementRef="id-4661dbc4bf794041acbdc131bdb1dc71" xsi:type="Element" x="624" y="254" w="224" h="60">
+        <node identifier="id-9039910146294ad99de340b4b4a15bee" elementRef="id-4661dbc4bf794041acbdc131bdb1dc71" xsi:type="Element" x="552" y="254" w="349" h="60">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
@@ -9191,7 +9192,7 @@ Arvioitaessa viranomaisen turvallisuusluokitellun tiedon käsittely-ympäristö�
             </font>
           </style>
         </node>
-        <node identifier="id-3a76a5c9973545e5aa1d0940b45fcf11" elementRef="id-08061a8d26d84b9c84c7e0b1259bd0b6" xsi:type="Element" x="348" y="444" w="288" h="55">
+        <node identifier="id-3a76a5c9973545e5aa1d0940b45fcf11" elementRef="id-08061a8d26d84b9c84c7e0b1259bd0b6" xsi:type="Element" x="312" y="444" w="324" h="55">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="92" g="92" b="92" a="100" />
@@ -9200,7 +9201,7 @@ Arvioitaessa viranomaisen turvallisuusluokitellun tiedon käsittely-ympäristö�
             </font>
           </style>
         </node>
-        <node identifier="id-3b825d38b41f44d19960daf53454ddbd" elementRef="id-278d6daa4127415cb828e2f9b64d14e3" xsi:type="Element" x="348" y="498" w="288" h="55">
+        <node identifier="id-3b825d38b41f44d19960daf53454ddbd" elementRef="id-278d6daa4127415cb828e2f9b64d14e3" xsi:type="Element" x="312" y="498" w="324" h="55">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="92" g="92" b="92" a="100" />
@@ -9209,7 +9210,7 @@ Arvioitaessa viranomaisen turvallisuusluokitellun tiedon käsittely-ympäristö�
             </font>
           </style>
         </node>
-        <node identifier="id-3ce1d4a444994c40a8a86d55e972892b" elementRef="id-0d100eb5517f49b38cc02c4599b3ba85" xsi:type="Element" x="348" y="552" w="288" h="55">
+        <node identifier="id-3ce1d4a444994c40a8a86d55e972892b" elementRef="id-0d100eb5517f49b38cc02c4599b3ba85" xsi:type="Element" x="312" y="552" w="324" h="55">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="92" g="92" b="92" a="100" />
@@ -9227,7 +9228,7 @@ Arvioitaessa viranomaisen turvallisuusluokitellun tiedon käsittely-ympäristö�
             </font>
           </style>
         </node>
-        <node identifier="id-386bd7ed2e924728807682995f4ea6d0" elementRef="id-fdc23231507c48489de82311eb59ca8d" xsi:type="Element" x="600" y="348" w="120" h="55">
+        <node identifier="id-386bd7ed2e924728807682995f4ea6d0" elementRef="id-fdc23231507c48489de82311eb59ca8d" xsi:type="Element" x="552" y="348" w="168" h="55">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="92" g="92" b="92" a="100" />
@@ -9236,7 +9237,7 @@ Arvioitaessa viranomaisen turvallisuusluokitellun tiedon käsittely-ympäristö�
             </font>
           </style>
         </node>
-        <node identifier="id-239dd69e92164fada01951df0ace11fe" elementRef="id-22cdb8e822ba4146bc8aaa8fc60f81ac" xsi:type="Element" x="728" y="348" w="120" h="55">
+        <node identifier="id-239dd69e92164fada01951df0ace11fe" elementRef="id-22cdb8e822ba4146bc8aaa8fc60f81ac" xsi:type="Element" x="728" y="348" w="173" h="55">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="92" g="92" b="92" a="100" />
@@ -9284,7 +9285,7 @@ Arvioitaessa viranomaisen turvallisuusluokitellun tiedon käsittely-ympäristö�
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="660" y="469" />
+          <bendpoint x="639" y="469" />
         </connection>
         <connection identifier="id-06ca47d3ea934159ac37ceff1af8b569" relationshipRef="id-b30241af64244bd297e82aeed1f0b3b7" xsi:type="Relationship" source="id-3b825d38b41f44d19960daf53454ddbd" target="id-386bd7ed2e924728807682995f4ea6d0">
           <style>
@@ -9293,7 +9294,7 @@ Arvioitaessa viranomaisen turvallisuusluokitellun tiedon käsittely-ympäristö�
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="660" y="529" />
+          <bendpoint x="639" y="529" />
         </connection>
         <connection identifier="id-62f1b36f25f2449a8555dc608c6110c0" relationshipRef="id-17bce0fc2866455c9087b8fa4d0c3d95" xsi:type="Relationship" source="id-3ce1d4a444994c40a8a86d55e972892b" target="id-386bd7ed2e924728807682995f4ea6d0">
           <style>
@@ -9302,7 +9303,7 @@ Arvioitaessa viranomaisen turvallisuusluokitellun tiedon käsittely-ympäristö�
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="660" y="577" />
+          <bendpoint x="639" y="577" />
         </connection>
         <connection identifier="id-3925bc3b4f994db7a1b62a90928004e0" relationshipRef="id-0470780145cb4fc998c57d7625d0273f" xsi:type="Relationship" source="id-d6b69b8b41f34d2caa3f2d87a3cdc9ae" target="id-239dd69e92164fada01951df0ace11fe">
           <style>
@@ -13322,227 +13323,227 @@ Arvioitaessa viranomaisen turvallisuusluokitellun tiedon käsittely-ympäristö�
 
 3 Lainsäädäntöjohdannaisilla riskeillä viitataan eri maiden lainsäädännössä oleviin mahdollisuuksiin velvoittaa palveluntarjoajat toimimaan yhteistyössä kyseisen maan viranomaisten kanssa, ja tarjoamaan esimerkiksi suora tai epäsuora pääsy palvelun asiakkaiden turvallisuusluokiteltuihin tietoihin. Lainsäädäntöjohdannaiset riskit voivat ulottua sekä turvallisuusluokitellun tiedon fyysiseen sijaintiin että muun muassa toisesta maasta käsin hallintayhteyksien kautta toteutettavaan tietojen luovutukseen. Lainsäädäntöjohdannainen tietojen luovuttaminen ja tutkimusoikeus on useissa maissa rajattu koskevaksi poliisia sekä tiedusteluviranomaisia.
 4 Erityistapauksiin sisältyvät muun muassa sellaiset kansainväliseen viranomaisyhteistyöhön liittyvät järjestelmähankkeet, joissa järjestelmäkokonaisuuksien osien tarkastamisen ja hyväksyntien toimivallasta ja vastuusta on kyseiseen viranomaisyhteistyöhön osallistuvien jäsenmaiden turvallisuusviranomaisten kesken erikseen sovittu. Kansainväliseen yhteistyöhön liittyy muitakin erityistapauksia, joissa sähköisen käsittely-ympäristön suojaukset voivat osin nojautua esimerkiksi EU:n toimielinten järjestelyihin.</documentation>
-        <node identifier="id-1148" elementRef="id-87c049c9b84d435e8fbad239ecb679ac" xsi:type="Element" x="540" y="12" w="224" h="60">
+        <node identifier="id-1148" elementRef="id-87c049c9b84d435e8fbad239ecb679ac" xsi:type="Element" x="552" y="0" w="224" h="85">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1158" elementRef="id-893e346e0b8b4530a1e8f2ff5639b6e5" xsi:type="Element" x="132" y="156" w="224" h="60">
+        <node identifier="id-1158" elementRef="id-893e346e0b8b4530a1e8f2ff5639b6e5" xsi:type="Element" x="144" y="156" w="224" h="85">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1152" elementRef="id-c7a9722664ad467a8f6f5c608e157bd2" xsi:type="Element" x="540" y="166" w="224" h="60">
+        <node identifier="id-1152" elementRef="id-c7a9722664ad467a8f6f5c608e157bd2" xsi:type="Element" x="552" y="156" w="224" h="85">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1138" elementRef="id-1f1f53b70fa14ae1b402735d450fd8ac" xsi:type="Element" x="1140" y="166" w="224" h="60">
+        <node identifier="id-1138" elementRef="id-1f1f53b70fa14ae1b402735d450fd8ac" xsi:type="Element" x="1152" y="156" w="224" h="85">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1160" elementRef="id-bf1210a483dc4945a8a7d99095117418" xsi:type="Element" x="0" y="374" w="224" h="60">
+        <node identifier="id-1160" elementRef="id-bf1210a483dc4945a8a7d99095117418" xsi:type="Element" x="0" y="424" w="224" h="85">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1147" elementRef="id-bacf4dbcef39424bb5f56ba065330dd4" xsi:type="Element" x="0" y="492" w="224" h="60">
+        <node identifier="id-1147" elementRef="id-bacf4dbcef39424bb5f56ba065330dd4" xsi:type="Element" x="0" y="592" w="224" h="85">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1129" elementRef="id-2695045ea70a4fe682f560eda1caa652" xsi:type="Element" x="708" y="441" w="224" h="60">
+        <node identifier="id-1129" elementRef="id-2695045ea70a4fe682f560eda1caa652" xsi:type="Element" x="720" y="508" w="224" h="85">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1153" elementRef="id-f4594ee5730f40659f9b23b503efec5e" xsi:type="Element" x="384" y="264" w="224" h="60">
+        <node identifier="id-1153" elementRef="id-f4594ee5730f40659f9b23b503efec5e" xsi:type="Element" x="396" y="264" w="224" h="85">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1123" elementRef="id-5bb6643c0ba84b11a2c56604afe9e800" xsi:type="Element" x="384" y="323" w="224" h="60">
+        <node identifier="id-1123" elementRef="id-5bb6643c0ba84b11a2c56604afe9e800" xsi:type="Element" x="396" y="340" w="224" h="85">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1131" elementRef="id-8dff4a2cd01a4bcbbf94c79d8a8958a1" xsi:type="Element" x="384" y="382" w="224" h="60">
+        <node identifier="id-1131" elementRef="id-8dff4a2cd01a4bcbbf94c79d8a8958a1" xsi:type="Element" x="396" y="424" w="224" h="85">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1136" elementRef="id-0d222eb12b9f42939f810cbc4f123679" xsi:type="Element" x="384" y="441" w="224" h="60">
+        <node identifier="id-1136" elementRef="id-0d222eb12b9f42939f810cbc4f123679" xsi:type="Element" x="396" y="508" w="224" h="85">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1142" elementRef="id-e9d8910a21b54340a9c5c288def4298d" xsi:type="Element" x="384" y="500" w="224" h="60">
+        <node identifier="id-1142" elementRef="id-e9d8910a21b54340a9c5c288def4298d" xsi:type="Element" x="396" y="592" w="224" h="85">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1122" elementRef="id-111910b645964c7785bfaaaa57447830" xsi:type="Element" x="708" y="264" w="224" h="60">
+        <node identifier="id-1122" elementRef="id-111910b645964c7785bfaaaa57447830" xsi:type="Element" x="720" y="264" w="224" h="85">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1125" elementRef="id-a6590235339d461cb4ad172a00d626b4" xsi:type="Element" x="708" y="323" w="224" h="60">
+        <node identifier="id-1125" elementRef="id-a6590235339d461cb4ad172a00d626b4" xsi:type="Element" x="720" y="340" w="224" h="85">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1127" elementRef="id-80eb4b86e0cb493c85f14b676894974b" xsi:type="Element" x="708" y="382" w="224" h="60">
+        <node identifier="id-1127" elementRef="id-80eb4b86e0cb493c85f14b676894974b" xsi:type="Element" x="720" y="424" w="224" h="85">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1139" elementRef="id-9d3e666d33f94536913a23d95b81431c" xsi:type="Element" x="984" y="264" w="224" h="60">
+        <node identifier="id-1139" elementRef="id-9d3e666d33f94536913a23d95b81431c" xsi:type="Element" x="996" y="264" w="224" h="85">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1117" elementRef="id-d1251401c9db473eb8fb7604ab8c51d9" xsi:type="Element" x="984" y="323" w="224" h="60">
+        <node identifier="id-1117" elementRef="id-d1251401c9db473eb8fb7604ab8c51d9" xsi:type="Element" x="996" y="340" w="224" h="85">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1135" elementRef="id-f6b45cee06604d7b954d2295779306c5" xsi:type="Element" x="984" y="382" w="224" h="60">
+        <node identifier="id-1135" elementRef="id-f6b45cee06604d7b954d2295779306c5" xsi:type="Element" x="996" y="424" w="224" h="85">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1114" elementRef="id-073fcc38eea447e581aca7c5f0ed48c7" xsi:type="Element" x="984" y="441" w="224" h="60">
+        <node identifier="id-1114" elementRef="id-073fcc38eea447e581aca7c5f0ed48c7" xsi:type="Element" x="996" y="508" w="224" h="85">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1132" elementRef="id-66842a0c55e84205bda4696b1c62d014" xsi:type="Element" x="1308" y="264" w="224" h="60">
+        <node identifier="id-1132" elementRef="id-66842a0c55e84205bda4696b1c62d014" xsi:type="Element" x="1320" y="264" w="224" h="85">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1120" elementRef="id-2c0d7fafd8a04008bb3555249d7dbb18" xsi:type="Element" x="1308" y="323" w="224" h="60">
+        <node identifier="id-1120" elementRef="id-2c0d7fafd8a04008bb3555249d7dbb18" xsi:type="Element" x="1320" y="340" w="224" h="85">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1156" elementRef="id-5264d4bd415141aa855284b651d54ae8" xsi:type="Element" x="1308" y="382" w="224" h="60">
+        <node identifier="id-1156" elementRef="id-5264d4bd415141aa855284b651d54ae8" xsi:type="Element" x="1320" y="424" w="224" h="85">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1157" elementRef="id-103ee3257e2a4d64bb12eee3ef46a447" xsi:type="Element" x="0" y="315" w="224" h="60">
+        <node identifier="id-1157" elementRef="id-103ee3257e2a4d64bb12eee3ef46a447" xsi:type="Element" x="0" y="340" w="224" h="85">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1128" elementRef="id-aca3e75f89054a6681cbd7caed3afbf5" xsi:type="Element" x="0" y="433" w="224" h="60">
+        <node identifier="id-1128" elementRef="id-aca3e75f89054a6681cbd7caed3afbf5" xsi:type="Element" x="0" y="508" w="224" h="85">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1149" elementRef="id-4661dbc4bf794041acbdc131bdb1dc71" xsi:type="Element" x="0" y="256" w="224" h="60">
+        <node identifier="id-1149" elementRef="id-4661dbc4bf794041acbdc131bdb1dc71" xsi:type="Element" x="0" y="256" w="224" h="85">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
@@ -13550,17 +13551,17 @@ Arvioitaessa viranomaisen turvallisuusluokitellun tiedon käsittely-ympäristö�
         <connection identifier="id-1145" relationshipRef="id-2034997f5b664f6a890c1b42978e8e95" xsi:type="Relationship" source="id-1148" target="id-1158">
           <style>
             <lineColor r="0" g="0" b="0" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="588" y="120" />
-          <bendpoint x="240" y="120" />
+          <bendpoint x="600" y="124" />
+          <bendpoint x="252" y="128" />
         </connection>
         <connection identifier="id-1151" relationshipRef="id-0e338883a3ee422fb4f46b766ed678bf" xsi:type="Relationship" source="id-1148" target="id-1152">
           <style>
             <lineColor r="0" g="0" b="0" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
@@ -13568,201 +13569,201 @@ Arvioitaessa viranomaisen turvallisuusluokitellun tiedon käsittely-ympäristö�
         <connection identifier="id-1159" relationshipRef="id-d2e75b13b8294ef993e3c889e95ed344" xsi:type="Relationship" source="id-1148" target="id-1138">
           <style>
             <lineColor r="0" g="0" b="0" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="708" y="120" />
-          <bendpoint x="1248" y="120" />
-        </connection>
-        <connection identifier="id-1119" relationshipRef="id-cef14b36ab204f87a42f9128dee8288b" xsi:type="Relationship" source="id-1158" target="id-1149">
-          <style>
-            <lineColor r="0" g="0" b="0" />
-            <font name="Arial" size="10">
-              <color r="0" g="0" b="0" />
-            </font>
-          </style>
-          <bendpoint x="240" y="278" />
-        </connection>
-        <connection identifier="id-1143" relationshipRef="id-900e14cd52ac4b62ac6383a82a005067" xsi:type="Relationship" source="id-1158" target="id-1157">
-          <style>
-            <lineColor r="0" g="0" b="0" />
-            <font name="Arial" size="10">
-              <color r="0" g="0" b="0" />
-            </font>
-          </style>
-          <bendpoint x="240" y="338" />
+          <bendpoint x="720" y="120" />
+          <bendpoint x="1260" y="121" />
         </connection>
         <connection identifier="id-1144" relationshipRef="id-2ac2a06cd5554dcaaaa8c7cd7e82a590" xsi:type="Relationship" source="id-1158" target="id-1128">
           <style>
             <lineColor r="0" g="0" b="0" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="240" y="458" />
+          <bendpoint x="252" y="552" />
         </connection>
         <connection identifier="id-0c334539996048078efe03cf796b25b8" relationshipRef="id-f7a73cbf6ccb41eba82a7860e5578359" xsi:type="Relationship" source="id-1158" target="id-1147">
           <style>
             <lineColor r="0" g="0" b="0" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="240" y="518" />
+          <bendpoint x="252" y="636" />
         </connection>
         <connection identifier="id-1130" relationshipRef="id-e909aafaab744e939626d376f90569ba" xsi:type="Relationship" source="id-1158" target="id-1160">
           <style>
             <lineColor r="0" g="0" b="0" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="240" y="398" />
+          <bendpoint x="252" y="468" />
+        </connection>
+        <connection identifier="id-1119" relationshipRef="id-cef14b36ab204f87a42f9128dee8288b" xsi:type="Relationship" source="id-1158" target="id-1149">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Arial" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <bendpoint x="252" y="300" />
+        </connection>
+        <connection identifier="id-1143" relationshipRef="id-900e14cd52ac4b62ac6383a82a005067" xsi:type="Relationship" source="id-1158" target="id-1157">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+            <font name="Arial" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+          <bendpoint x="252" y="384" />
         </connection>
         <connection identifier="id-1124" relationshipRef="id-10cf676bf3b541638e58494da8681b6f" xsi:type="Relationship" source="id-1152" target="id-1153">
           <style>
             <lineColor r="0" g="0" b="0" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="630" y="287" />
+          <bendpoint x="648" y="312" />
         </connection>
         <connection identifier="id-1155" relationshipRef="id-b5b9ab3a1b794d7fa3be298bfc755c24" xsi:type="Relationship" source="id-1152" target="id-1136">
           <style>
             <lineColor r="0" g="0" b="0" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="630" y="467" />
+          <bendpoint x="648" y="552" />
         </connection>
         <connection identifier="id-1141" relationshipRef="id-5968271e769a42c09b0698d14e5353a3" xsi:type="Relationship" source="id-1152" target="id-1142">
           <style>
             <lineColor r="0" g="0" b="0" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="630" y="527" />
+          <bendpoint x="648" y="636" />
         </connection>
         <connection identifier="id-1134" relationshipRef="id-1549efbd8ab64fa99a2b3840a5fb7616" xsi:type="Relationship" source="id-1152" target="id-1129">
           <style>
             <lineColor r="0" g="0" b="0" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="684" y="468" />
+          <bendpoint x="696" y="552" />
         </connection>
         <connection identifier="id-1113" relationshipRef="id-f71d27666cf1444e8ae08e534268ea88" xsi:type="Relationship" source="id-1152" target="id-1131">
           <style>
             <lineColor r="0" g="0" b="0" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="630" y="407" />
+          <bendpoint x="648" y="468" />
         </connection>
         <connection identifier="id-1126" relationshipRef="id-619f3edd5f3b4cc3913f36435a53fafd" xsi:type="Relationship" source="id-1152" target="id-1122">
           <style>
             <lineColor r="0" g="0" b="0" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="684" y="288" />
+          <bendpoint x="696" y="312" />
         </connection>
         <connection identifier="id-1112" relationshipRef="id-fb3fb56fc9394f409e42e7a14dfe2162" xsi:type="Relationship" source="id-1152" target="id-1127">
           <style>
             <lineColor r="0" g="0" b="0" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="684" y="408" />
+          <bendpoint x="696" y="468" />
         </connection>
         <connection identifier="id-1154" relationshipRef="id-c99bfc7b5d804962a3aa00cdac863378" xsi:type="Relationship" source="id-1152" target="id-1125">
           <style>
             <lineColor r="0" g="0" b="0" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="684" y="348" />
+          <bendpoint x="696" y="384" />
         </connection>
         <connection identifier="id-1150" relationshipRef="id-6c39d077cbb44433868328598bbf9ff6" xsi:type="Relationship" source="id-1152" target="id-1123">
           <style>
             <lineColor r="0" g="0" b="0" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="630" y="347" />
+          <bendpoint x="648" y="384" />
         </connection>
         <connection identifier="id-1116" relationshipRef="id-43331338e8c54633a3fbd255e88d77c2" xsi:type="Relationship" source="id-1138" target="id-1139">
           <style>
             <lineColor r="0" g="0" b="0" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="1224" y="288" />
+          <bendpoint x="1248" y="300" />
         </connection>
         <connection identifier="id-1118" relationshipRef="id-75cf75b3524e4fbfa6e5d11090ac3c2a" xsi:type="Relationship" source="id-1138" target="id-1120">
           <style>
             <lineColor r="0" g="0" b="0" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="1284" y="348" />
+          <bendpoint x="1296" y="384" />
         </connection>
         <connection identifier="id-1133" relationshipRef="id-2b28525288d64340b8e97a8dd5cbed80" xsi:type="Relationship" source="id-1138" target="id-1117">
           <style>
             <lineColor r="0" g="0" b="0" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="1224" y="348" />
+          <bendpoint x="1248" y="384" />
         </connection>
         <connection identifier="id-1140" relationshipRef="id-33788dddb5134099a77bd1b6d8353e4b" xsi:type="Relationship" source="id-1138" target="id-1114">
           <style>
             <lineColor r="0" g="0" b="0" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="1224" y="468" />
+          <bendpoint x="1248" y="540" />
         </connection>
         <connection identifier="id-1137" relationshipRef="id-1db627346ae949ae99fde6d77f5fa1c2" xsi:type="Relationship" source="id-1138" target="id-1135">
           <style>
             <lineColor r="0" g="0" b="0" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="1224" y="408" />
+          <bendpoint x="1248" y="456" />
         </connection>
         <connection identifier="id-1115" relationshipRef="id-b123436eb0cd4615b343be3d284e7f10" xsi:type="Relationship" source="id-1138" target="id-1132">
           <style>
             <lineColor r="0" g="0" b="0" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="1284" y="288" />
+          <bendpoint x="1296" y="300" />
         </connection>
         <connection identifier="id-1121" relationshipRef="id-3f2f1dfddb6940e9a0d84832b104148c" xsi:type="Relationship" source="id-1138" target="id-1156">
           <style>
             <lineColor r="0" g="0" b="0" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="1284" y="408" />
+          <bendpoint x="1296" y="456" />
         </connection>
       </view>
       <view identifier="id-b8da8026a1f2404bb3042552c1778f54" xsi:type="Diagram" viewpoint="Motivation">
@@ -24117,308 +24118,308 @@ Edellä kuvattu fyysisten turvatoimien arviointiprosessi on havainnollistettu al
 Katakri 2020:n F-osa-alue on rakennettu prosessin mukaisesti eteneväksi:
 
 Ensimmäisenä tulee tunnistaa kohdeorganisaatiossa käsiteltävä turvallisuusluokiteltu tieto ja arvioida fyysiseen turvallisuuteen liittyvät riskit (F-02). Auditoijan tulee arvioida kohteen riskien arvioinnin riittävyys ja tarvittaessa edellyttää riskien uudelleenarviointia. Riskien arvioinnin tulokset vaikuttavat tiedonhallintalain (906/2019, 13 §) mukaisesti siihen, mitkä fyysiset turvatoimet tulee valita ja toteuttaa (F-03). Vaatimukset F-05  F-07 käsittelevät tietojen suojaamiseksi perustettavia turvallisuusalueita ja niiden vähimmäisvaatimuksia. Vähimmäisvaatimukset on johdettu suoraan Valtionvarainministeriön turvallisuusluokiteltavien asiakirjojen käsittelystä antamasta suosituksesta (2020:19), joka perustuu Valtioneuvoston asetukseen asiakirjojen turvallisuusluokittelusta valtionhallinnossa (1101/2019). Vähimmäisvaatimusten ja monitasoisen suojauksen toteuttamisen jälkeen auditoija arvioi fyysiset turvatoimet ja sen voidaanko jäännösriskit hyväksyä. Tarvittaessa monitasoista suojausta korjataan, kunnes auditoija hyväksyy jäännösriskit ja fyysisten turvatoimien tavoite (F-01) täyttyy. Riskien arviointi sekä yksittäisten turvatoimien ja koko monitasoisen suojauksen tehokkuus on arvioitava uudelleen säännöllisin väliajoin ja kunkin auditoinnin yhteydessä.</documentation>
-        <node identifier="id-1077" elementRef="id-bd3f62c10f89431ea354bac87e73e156" xsi:type="Element" x="948" y="12" w="187" h="53">
+        <node identifier="id-1077" elementRef="id-bd3f62c10f89431ea354bac87e73e156" xsi:type="Element" x="960" y="0" w="217" h="78">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="14">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1089" elementRef="id-490a262b13c64da5983e1d339f9d9dc3" xsi:type="Element" x="48" y="228" w="187" h="53">
+        <node identifier="id-1089" elementRef="id-490a262b13c64da5983e1d339f9d9dc3" xsi:type="Element" x="12" y="264" w="217" h="53">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1092" elementRef="id-24eedbe57d4d4a75a2be9b5c3fb4939b" xsi:type="Element" x="468" y="228" w="187" h="53">
+        <node identifier="id-1092" elementRef="id-24eedbe57d4d4a75a2be9b5c3fb4939b" xsi:type="Element" x="432" y="264" w="217" h="53">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="14">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1097" elementRef="id-551e4ad5ee4d4dbea16922e32d026cd0" xsi:type="Element" x="948" y="228" w="187" h="53">
+        <node identifier="id-1097" elementRef="id-551e4ad5ee4d4dbea16922e32d026cd0" xsi:type="Element" x="960" y="264" w="217" h="53">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="14">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1080" elementRef="id-e7b4f7f452584002a49168e439ef92bf" xsi:type="Element" x="1296" y="228" w="187" h="53">
+        <node identifier="id-1080" elementRef="id-e7b4f7f452584002a49168e439ef92bf" xsi:type="Element" x="1260" y="264" w="217" h="53">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="14">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1074" elementRef="id-f2cf21752cd84f708111deb2089f4e2f" xsi:type="Element" x="1512" y="228" w="187" h="53">
+        <node identifier="id-1074" elementRef="id-f2cf21752cd84f708111deb2089f4e2f" xsi:type="Element" x="1512" y="264" w="217" h="53">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="14">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1086" elementRef="id-7a285c7e95b344bfa70f3c9480849df8" xsi:type="Element" x="48" y="280" w="187" h="53">
+        <node identifier="id-1086" elementRef="id-7a285c7e95b344bfa70f3c9480849df8" xsi:type="Element" x="12" y="316" w="217" h="53">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1045" elementRef="id-feece2aac9a945c7967f1ead68b974e8" xsi:type="Element" x="48" y="332" w="187" h="53">
+        <node identifier="id-1045" elementRef="id-feece2aac9a945c7967f1ead68b974e8" xsi:type="Element" x="12" y="368" w="217" h="53">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1082" elementRef="id-e85dac5aa82746cc9b4f103d85b9cc1b" xsi:type="Element" x="48" y="384" w="187" h="53">
+        <node identifier="id-1082" elementRef="id-e85dac5aa82746cc9b4f103d85b9cc1b" xsi:type="Element" x="12" y="420" w="217" h="53">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1054" elementRef="id-88b2b10fa72341528cb9539e511abd34" xsi:type="Element" x="348" y="312" w="187" h="53">
+        <node identifier="id-1054" elementRef="id-88b2b10fa72341528cb9539e511abd34" xsi:type="Element" x="276" y="348" w="217" h="53">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1039" elementRef="id-2fee372c8a32475ea7f65629501ab088" xsi:type="Element" x="348" y="364" w="187" h="53">
+        <node identifier="id-1039" elementRef="id-2fee372c8a32475ea7f65629501ab088" xsi:type="Element" x="276" y="400" w="217" h="53">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1057" elementRef="id-a92cc7a3322f400483351ef66e9be74a" xsi:type="Element" x="348" y="416" w="187" h="53">
+        <node identifier="id-1057" elementRef="id-a92cc7a3322f400483351ef66e9be74a" xsi:type="Element" x="276" y="452" w="217" h="53">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1099" elementRef="id-ee64b1f8ba2e4372967fac834a969887" xsi:type="Element" x="348" y="468" w="187" h="53">
+        <node identifier="id-1099" elementRef="id-ee64b1f8ba2e4372967fac834a969887" xsi:type="Element" x="276" y="504" w="217" h="53">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1036" elementRef="id-73fa865ca39d41e5a0e9705df1a8e79b" xsi:type="Element" x="600" y="312" w="187" h="53">
+        <node identifier="id-1036" elementRef="id-73fa865ca39d41e5a0e9705df1a8e79b" xsi:type="Element" x="588" y="348" w="217" h="53">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1093" elementRef="id-c97451e9af514eb7bd262aff9d32a10c" xsi:type="Element" x="600" y="364" w="187" h="53">
+        <node identifier="id-1093" elementRef="id-c97451e9af514eb7bd262aff9d32a10c" xsi:type="Element" x="588" y="400" w="217" h="53">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1094" elementRef="id-59b1853967074c7c94b4bdabc83c4a81" xsi:type="Element" x="600" y="416" w="187" h="53">
+        <node identifier="id-1094" elementRef="id-59b1853967074c7c94b4bdabc83c4a81" xsi:type="Element" x="588" y="452" w="217" h="53">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1071" elementRef="id-9da61d33440d4a18aefe973a1b55851b" xsi:type="Element" x="600" y="468" w="187" h="53">
+        <node identifier="id-1071" elementRef="id-9da61d33440d4a18aefe973a1b55851b" xsi:type="Element" x="588" y="504" w="217" h="53">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1096" elementRef="id-6030b59e776648ff8c8ddce4c228d03c" xsi:type="Element" x="816" y="312" w="187" h="53">
+        <node identifier="id-1096" elementRef="id-6030b59e776648ff8c8ddce4c228d03c" xsi:type="Element" x="816" y="348" w="217" h="53">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1076" elementRef="id-0a2c0f3881cf48f9af55315813ad9e76" xsi:type="Element" x="816" y="364" w="187" h="53">
+        <node identifier="id-1076" elementRef="id-0a2c0f3881cf48f9af55315813ad9e76" xsi:type="Element" x="816" y="400" w="217" h="53">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1065" elementRef="id-99d0bee5b59644a0a069ac37ae6f01fa" xsi:type="Element" x="816" y="416" w="187" h="53">
+        <node identifier="id-1065" elementRef="id-99d0bee5b59644a0a069ac37ae6f01fa" xsi:type="Element" x="816" y="452" w="217" h="53">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1042" elementRef="id-c546eb5d3dd748bc8c4eef5b8763a760" xsi:type="Element" x="816" y="468" w="187" h="53">
+        <node identifier="id-1042" elementRef="id-c546eb5d3dd748bc8c4eef5b8763a760" xsi:type="Element" x="816" y="504" w="217" h="53">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1040" elementRef="id-4ac9ac4ffbc94bf4b897c25a86b0fd77" xsi:type="Element" x="816" y="520" w="187" h="53">
+        <node identifier="id-1040" elementRef="id-4ac9ac4ffbc94bf4b897c25a86b0fd77" xsi:type="Element" x="816" y="556" w="217" h="53">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1102" elementRef="id-52bda011e6d14802affd9f282a983956" xsi:type="Element" x="1092" y="312" w="187" h="53">
+        <node identifier="id-1102" elementRef="id-52bda011e6d14802affd9f282a983956" xsi:type="Element" x="1116" y="348" w="217" h="53">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1090" elementRef="id-38f0622aac3d4410bf1d6c721e3c8f23" xsi:type="Element" x="1092" y="364" w="187" h="53">
+        <node identifier="id-1090" elementRef="id-38f0622aac3d4410bf1d6c721e3c8f23" xsi:type="Element" x="1116" y="400" w="217" h="53">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1081" elementRef="id-314c7745b65c46ff91c3097efeeb4847" xsi:type="Element" x="1092" y="416" w="187" h="53">
+        <node identifier="id-1081" elementRef="id-314c7745b65c46ff91c3097efeeb4847" xsi:type="Element" x="1116" y="452" w="217" h="53">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1104" elementRef="id-a294f39a8ff143818e3226d42801e64a" xsi:type="Element" x="1092" y="468" w="187" h="53">
+        <node identifier="id-1104" elementRef="id-a294f39a8ff143818e3226d42801e64a" xsi:type="Element" x="1116" y="504" w="217" h="53">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1051" elementRef="id-66fbbbed0eec4c46a794f2fe27d58bd3" xsi:type="Element" x="1644" y="312" w="187" h="53">
+        <node identifier="id-1051" elementRef="id-66fbbbed0eec4c46a794f2fe27d58bd3" xsi:type="Element" x="1668" y="348" w="217" h="53">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1078" elementRef="id-eaceeff67f1e4873934507ee47232f75" xsi:type="Element" x="1644" y="364" w="187" h="53">
+        <node identifier="id-1078" elementRef="id-eaceeff67f1e4873934507ee47232f75" xsi:type="Element" x="1668" y="400" w="217" h="53">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1073" elementRef="id-56e9ceb271d5479badea749e3daff549" xsi:type="Element" x="1644" y="416" w="187" h="53">
+        <node identifier="id-1073" elementRef="id-56e9ceb271d5479badea749e3daff549" xsi:type="Element" x="1668" y="452" w="217" h="53">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1079" elementRef="id-75fe20803c5443498f63f1ce37550bce" xsi:type="Element" x="1644" y="468" w="187" h="53">
+        <node identifier="id-1079" elementRef="id-75fe20803c5443498f63f1ce37550bce" xsi:type="Element" x="1668" y="504" w="217" h="53">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="12">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-1062" elementRef="id-05bd96d7229a4ef08dbf63f0962d4823" xsi:type="Element" x="1092" y="520" w="187" h="53">
+        <node identifier="id-1062" elementRef="id-05bd96d7229a4ef08dbf63f0962d4823" xsi:type="Element" x="1116" y="556" w="217" h="53">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="0" g="0" b="0" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="13">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-ad0244b2c1f14fd1bcc44dc9bfb60f6b" elementRef="id-ad18f4c8635744b1b2ba295a7b0656c7" xsi:type="Element" x="156" y="143" w="187" h="55">
+        <node identifier="id-ad0244b2c1f14fd1bcc44dc9bfb60f6b" elementRef="id-ad18f4c8635744b1b2ba295a7b0656c7" xsi:type="Element" x="156" y="156" w="217" h="78">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="92" g="92" b="92" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="14">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-ab5902f1a2a14ed590df6d8334893041" elementRef="id-f86cf78c88074bd2a64b188697a84252" xsi:type="Element" x="948" y="143" w="187" h="55">
+        <node identifier="id-ab5902f1a2a14ed590df6d8334893041" elementRef="id-f86cf78c88074bd2a64b188697a84252" xsi:type="Element" x="960" y="156" w="217" h="78">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="92" g="92" b="92" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="14">
               <color r="0" g="0" b="0" />
             </font>
           </style>
         </node>
-        <node identifier="id-f74d74cf3c2341ebaf9a7667717a2a05" elementRef="id-8157d4e96fd44a22bfcd9c75d5baef64" xsi:type="Element" x="1512" y="143" w="187" h="55">
+        <node identifier="id-f74d74cf3c2341ebaf9a7667717a2a05" elementRef="id-8157d4e96fd44a22bfcd9c75d5baef64" xsi:type="Element" x="1512" y="156" w="217" h="78">
           <style>
             <fillColor r="204" g="204" b="255" a="100" />
             <lineColor r="92" g="92" b="92" a="100" />
-            <font name="Arial" size="10">
+            <font name="Arial" size="14">
               <color r="0" g="0" b="0" />
             </font>
           </style>
@@ -24430,8 +24431,8 @@ Ensimmäisenä tulee tunnistaa kohdeorganisaatiossa käsiteltävä turvallisuusl
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="997" y="108" />
-          <bendpoint x="252" y="108" />
+          <bendpoint x="1020" y="120" />
+          <bendpoint x="264" y="120" />
         </connection>
         <connection identifier="id-7437fd522d114e09b01dba9973747430" relationshipRef="id-9cadc7bac2ca415eb7a4eda9888b1c95" xsi:type="Relationship" source="id-1077" target="id-ab5902f1a2a14ed590df6d8334893041">
           <style>
@@ -24448,8 +24449,8 @@ Ensimmäisenä tulee tunnistaa kohdeorganisaatiossa käsiteltävä turvallisuusl
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="1093" y="108" />
-          <bendpoint x="1609" y="108" />
+          <bendpoint x="1116" y="120" />
+          <bendpoint x="1620" y="120" />
         </connection>
         <connection identifier="id-ed43ab3d23484748a44d63243fdeb48a" relationshipRef="id-c1cd930003694cb0800f01519f86c37c" xsi:type="Relationship" source="id-1092" target="id-1093">
           <style>
@@ -24458,7 +24459,7 @@ Ensimmäisenä tulee tunnistaa kohdeorganisaatiossa käsiteltävä turvallisuusl
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="589" y="387" />
+          <bendpoint x="570" y="432" />
         </connection>
         <connection identifier="id-1087" relationshipRef="id-9e49b5349cfd4e9596f4181228b87f78" xsi:type="Relationship" source="id-1092" target="id-1057">
           <style>
@@ -24467,7 +24468,7 @@ Ensimmäisenä tulee tunnistaa kohdeorganisaatiossa käsiteltävä turvallisuusl
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="553" y="435" />
+          <bendpoint x="516" y="480" />
         </connection>
         <connection identifier="id-1050" relationshipRef="id-34be397684a2493a98bb21057279ebe6" xsi:type="Relationship" source="id-1092" target="id-1039">
           <style>
@@ -24476,7 +24477,7 @@ Ensimmäisenä tulee tunnistaa kohdeorganisaatiossa käsiteltävä turvallisuusl
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="553" y="387" />
+          <bendpoint x="516" y="420" />
         </connection>
         <connection identifier="id-1066" relationshipRef="id-b8247125f2e0470da2bf96d326c4a7f8" xsi:type="Relationship" source="id-1092" target="id-1099">
           <style>
@@ -24485,7 +24486,7 @@ Ensimmäisenä tulee tunnistaa kohdeorganisaatiossa käsiteltävä turvallisuusl
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="553" y="495" />
+          <bendpoint x="516" y="528" />
         </connection>
         <connection identifier="id-1049" relationshipRef="id-c8470e802eae43a4af4e3995a75b8737" xsi:type="Relationship" source="id-1092" target="id-1071">
           <style>
@@ -24494,7 +24495,7 @@ Ensimmäisenä tulee tunnistaa kohdeorganisaatiossa käsiteltävä turvallisuusl
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="589" y="495" />
+          <bendpoint x="570" y="528" />
         </connection>
         <connection identifier="id-1038" relationshipRef="id-ecb14708ceba470fbe8ddb964a27d619" xsi:type="Relationship" source="id-1092" target="id-1094">
           <style>
@@ -24503,7 +24504,7 @@ Ensimmäisenä tulee tunnistaa kohdeorganisaatiossa käsiteltävä turvallisuusl
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="589" y="435" />
+          <bendpoint x="570" y="480" />
         </connection>
         <connection identifier="id-1061" relationshipRef="id-0452f8f347f3425a86452bab004b8f56" xsi:type="Relationship" source="id-1092" target="id-1036">
           <style>
@@ -24512,7 +24513,7 @@ Ensimmäisenä tulee tunnistaa kohdeorganisaatiossa käsiteltävä turvallisuusl
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="589" y="339" />
+          <bendpoint x="570" y="372" />
         </connection>
         <connection identifier="id-ea753e6c153c49768e12dd78197f925b" relationshipRef="id-1c09c690cb37461a9e810dc960cb360b" xsi:type="Relationship" source="id-1092" target="id-1054">
           <style>
@@ -24521,7 +24522,7 @@ Ensimmäisenä tulee tunnistaa kohdeorganisaatiossa käsiteltävä turvallisuusl
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="553" y="339" />
+          <bendpoint x="516" y="372" />
         </connection>
         <connection identifier="id-1101" relationshipRef="id-8d167c3c5c6b44f29b5edf26278a2660" xsi:type="Relationship" source="id-1097" target="id-1076">
           <style>
@@ -24530,7 +24531,7 @@ Ensimmäisenä tulee tunnistaa kohdeorganisaatiossa käsiteltävä turvallisuusl
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="1021" y="387" />
+          <bendpoint x="1056" y="420" />
         </connection>
         <connection identifier="id-1047" relationshipRef="id-7281305c191348548c8e4285cabca666" xsi:type="Relationship" source="id-1097" target="id-1065">
           <style>
@@ -24539,7 +24540,7 @@ Ensimmäisenä tulee tunnistaa kohdeorganisaatiossa käsiteltävä turvallisuusl
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="1021" y="435" />
+          <bendpoint x="1056" y="480" />
         </connection>
         <connection identifier="id-1035" relationshipRef="id-283ec68e8d1346e997169890fcfde7db" xsi:type="Relationship" source="id-1097" target="id-1102">
           <style>
@@ -24548,7 +24549,7 @@ Ensimmäisenä tulee tunnistaa kohdeorganisaatiossa käsiteltävä turvallisuusl
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="1069" y="327" />
+          <bendpoint x="1092" y="372" />
         </connection>
         <connection identifier="id-1044" relationshipRef="id-b2c68942429042878028a8a0cfd3595c" xsi:type="Relationship" source="id-1097" target="id-1096">
           <style>
@@ -24557,7 +24558,7 @@ Ensimmäisenä tulee tunnistaa kohdeorganisaatiossa käsiteltävä turvallisuusl
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="1021" y="327" />
+          <bendpoint x="1056" y="372" />
         </connection>
         <connection identifier="id-1100" relationshipRef="id-8f874102155f47aaab696782d34b06d7" xsi:type="Relationship" source="id-1097" target="id-1042">
           <style>
@@ -24566,7 +24567,7 @@ Ensimmäisenä tulee tunnistaa kohdeorganisaatiossa käsiteltävä turvallisuusl
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="1021" y="495" />
+          <bendpoint x="1056" y="528" />
         </connection>
         <connection identifier="id-1084" relationshipRef="id-41422d04870c4e878934c0df1f54df98" xsi:type="Relationship" source="id-1097" target="id-1040">
           <style>
@@ -24575,7 +24576,7 @@ Ensimmäisenä tulee tunnistaa kohdeorganisaatiossa käsiteltävä turvallisuusl
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="1021" y="543" />
+          <bendpoint x="1056" y="588" />
         </connection>
         <connection identifier="id-1060" relationshipRef="id-a948c4f633f1464fae8a85af27af7c69" xsi:type="Relationship" source="id-1097" target="id-1062">
           <style>
@@ -24584,7 +24585,7 @@ Ensimmäisenä tulee tunnistaa kohdeorganisaatiossa käsiteltävä turvallisuusl
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="1069" y="543" />
+          <bendpoint x="1092" y="576" />
         </connection>
         <connection identifier="id-1083" relationshipRef="id-fe43d7ff7f3f45ccaf6ee76e5ed01e02" xsi:type="Relationship" source="id-1097" target="id-1090">
           <style>
@@ -24593,7 +24594,7 @@ Ensimmäisenä tulee tunnistaa kohdeorganisaatiossa käsiteltävä turvallisuusl
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="1069" y="387" />
+          <bendpoint x="1092" y="432" />
         </connection>
         <connection identifier="id-1053" relationshipRef="id-b8bb3f3c51d44441886df6976861ef28" xsi:type="Relationship" source="id-1097" target="id-1081">
           <style>
@@ -24602,7 +24603,7 @@ Ensimmäisenä tulee tunnistaa kohdeorganisaatiossa käsiteltävä turvallisuusl
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="1069" y="435" />
+          <bendpoint x="1092" y="480" />
         </connection>
         <connection identifier="id-1059" relationshipRef="id-994d0ae0a1f64746bfb5e64977026d2e" xsi:type="Relationship" source="id-1097" target="id-1104">
           <style>
@@ -24611,7 +24612,7 @@ Ensimmäisenä tulee tunnistaa kohdeorganisaatiossa käsiteltävä turvallisuusl
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="1069" y="495" />
+          <bendpoint x="1092" y="528" />
         </connection>
         <connection identifier="id-1098" relationshipRef="id-f3bb87ccb3a041158f263540a609af20" xsi:type="Relationship" source="id-1074" target="id-1079">
           <style>
@@ -24620,7 +24621,7 @@ Ensimmäisenä tulee tunnistaa kohdeorganisaatiossa käsiteltävä turvallisuusl
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="1633" y="495" />
+          <bendpoint x="1644" y="528" />
         </connection>
         <connection identifier="id-1085" relationshipRef="id-4dc79dff93804cf9811ba28ac5bce2bf" xsi:type="Relationship" source="id-1074" target="id-1078">
           <style>
@@ -24629,7 +24630,7 @@ Ensimmäisenä tulee tunnistaa kohdeorganisaatiossa käsiteltävä turvallisuusl
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="1633" y="387" />
+          <bendpoint x="1644" y="432" />
         </connection>
         <connection identifier="id-1052" relationshipRef="id-6aaf5faada1648bc9c38d65e7f6e694f" xsi:type="Relationship" source="id-1074" target="id-1051">
           <style>
@@ -24638,7 +24639,7 @@ Ensimmäisenä tulee tunnistaa kohdeorganisaatiossa käsiteltävä turvallisuusl
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="1633" y="339" />
+          <bendpoint x="1644" y="372" />
         </connection>
         <connection identifier="id-1056" relationshipRef="id-61eda52a7e1d44af920bc739f0fe09ee" xsi:type="Relationship" source="id-1074" target="id-1073">
           <style>
@@ -24647,7 +24648,7 @@ Ensimmäisenä tulee tunnistaa kohdeorganisaatiossa käsiteltävä turvallisuusl
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="1633" y="435" />
+          <bendpoint x="1644" y="480" />
         </connection>
         <connection identifier="id-1043" relationshipRef="id-eb50a3525b7d4a53b12aa17b7b0cfa4a" xsi:type="Relationship" source="id-ad0244b2c1f14fd1bcc44dc9bfb60f6b" target="id-1089">
           <style>
@@ -24656,7 +24657,7 @@ Ensimmäisenä tulee tunnistaa kohdeorganisaatiossa käsiteltävä turvallisuusl
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="253" y="259" />
+          <bendpoint x="252" y="288" />
         </connection>
         <connection identifier="id-1088" relationshipRef="id-605c33e3a68c493daa16e2900f71721a" xsi:type="Relationship" source="id-ad0244b2c1f14fd1bcc44dc9bfb60f6b" target="id-1086">
           <style>
@@ -24665,7 +24666,7 @@ Ensimmäisenä tulee tunnistaa kohdeorganisaatiossa käsiteltävä turvallisuusl
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="253" y="307" />
+          <bendpoint x="252" y="348" />
         </connection>
         <connection identifier="id-1091" relationshipRef="id-f51037cb505e47099bfbd618e612b234" xsi:type="Relationship" source="id-ad0244b2c1f14fd1bcc44dc9bfb60f6b" target="id-1045">
           <style>
@@ -24674,7 +24675,7 @@ Ensimmäisenä tulee tunnistaa kohdeorganisaatiossa käsiteltävä turvallisuusl
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="253" y="355" />
+          <bendpoint x="252" y="396" />
         </connection>
         <connection identifier="id-1041" relationshipRef="id-e455987d03be40afaaa10d35ef030451" xsi:type="Relationship" source="id-ad0244b2c1f14fd1bcc44dc9bfb60f6b" target="id-1082">
           <style>
@@ -24683,7 +24684,7 @@ Ensimmäisenä tulee tunnistaa kohdeorganisaatiossa käsiteltävä turvallisuusl
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="253" y="415" />
+          <bendpoint x="252" y="444" />
         </connection>
         <connection identifier="id-1068" relationshipRef="id-f8fcb39a0afa4e5392b3f7fda3a49abd" xsi:type="Relationship" source="id-ab5902f1a2a14ed590df6d8334893041" target="id-1080">
           <style>
@@ -24692,7 +24693,7 @@ Ensimmäisenä tulee tunnistaa kohdeorganisaatiossa käsiteltävä turvallisuusl
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="1393" y="168" />
+          <bendpoint x="1380" y="192" />
         </connection>
         <connection identifier="id-1063" relationshipRef="id-a60d62388b2443539ec4f8e8371c9eed" xsi:type="Relationship" source="id-ab5902f1a2a14ed590df6d8334893041" target="id-1097">
           <style>
@@ -24709,7 +24710,7 @@ Ensimmäisenä tulee tunnistaa kohdeorganisaatiossa käsiteltävä turvallisuusl
               <color r="0" g="0" b="0" />
             </font>
           </style>
-          <bendpoint x="565" y="168" />
+          <bendpoint x="534" y="192" />
         </connection>
         <connection identifier="id-1064" relationshipRef="id-8fa80dc39f89475a927a696d7c713429" xsi:type="Relationship" source="id-f74d74cf3c2341ebaf9a7667717a2a05" target="id-1074">
           <style>
@@ -28575,7 +28576,7 @@ Teknistä tietoturvallisuutta koskevassa (I) osa-alueessa kuvataan puolestaan te
           </style>
           <viewRef ref="id-619" />
         </node>
-        <node identifier="id-f3cfe0c5752944b7a7f49c6bcc162290" xsi:type="Label" x="48" y="276" w="120" h="55">
+        <node identifier="id-f3cfe0c5752944b7a7f49c6bcc162290" xsi:type="Label" x="48" y="264" w="120" h="55">
           <label xml:lang="en">V I-01 realisointihahmotelma</label>
           <style>
             <fillColor r="220" g="235" b="235" a="100" />
@@ -28586,7 +28587,7 @@ Teknistä tietoturvallisuutta koskevassa (I) osa-alueessa kuvataan puolestaan te
           </style>
           <viewRef ref="id-4b07aa625a774858bf4e3fd098d360ea" />
         </node>
-        <node identifier="id-215acaaf5f674528980f69b03c6fac56" xsi:type="Label" x="192" y="276" w="120" h="55">
+        <node identifier="id-215acaaf5f674528980f69b03c6fac56" xsi:type="Label" x="192" y="264" w="120" h="55">
           <label xml:lang="en">V I-02 realisointihahmotelma</label>
           <style>
             <fillColor r="220" g="235" b="235" a="100" />
@@ -28597,7 +28598,7 @@ Teknistä tietoturvallisuutta koskevassa (I) osa-alueessa kuvataan puolestaan te
           </style>
           <viewRef ref="id-211" />
         </node>
-        <node identifier="id-676ee5bed49f4ded97e99d2a09e0cf3a" xsi:type="Label" x="342" y="276" w="120" h="55">
+        <node identifier="id-676ee5bed49f4ded97e99d2a09e0cf3a" xsi:type="Label" x="342" y="264" w="120" h="55">
           <label xml:lang="en">V I-03 realisointihahmotelma</label>
           <style>
             <fillColor r="220" g="235" b="235" a="100" />
@@ -28608,7 +28609,7 @@ Teknistä tietoturvallisuutta koskevassa (I) osa-alueessa kuvataan puolestaan te
           </style>
           <viewRef ref="id-381" />
         </node>
-        <node identifier="id-3d2f9a84c9a04a2494f7c5909d81289b" xsi:type="Label" x="492" y="276" w="120" h="55">
+        <node identifier="id-3d2f9a84c9a04a2494f7c5909d81289b" xsi:type="Label" x="492" y="264" w="120" h="55">
           <label xml:lang="en">V I-04 realisointihahmotelma</label>
           <style>
             <fillColor r="220" g="235" b="235" a="100" />
